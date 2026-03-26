@@ -1,11 +1,6 @@
-#!/usr/bin/env python3
-"""Dispara lookup de contrato no cache local TOA bridge.
-
-Uso: python3 src/toa_lookup.py 1234567
-"""
-import json
 import os
 import sys
+import json
 import time
 import urllib.request
 import urllib.error
@@ -23,12 +18,16 @@ def fetch_contract(contract: str):
     req = urllib.request.Request(url, method="GET")
     if TOKEN:
         req.add_header("x-toa-token", TOKEN)
-    with urllib.request.urlopen(req, timeout=8) as resp:
-        body = resp.read().decode("utf-8", errors="replace")
-        data = json.loads(body)
-        if not isinstance(data, dict):
-            return None
-        return data
+    
+    try:
+        with urllib.request.urlopen(req, timeout=8) as resp:
+            body = resp.read().decode("utf-8", errors="replace")
+            data = json.loads(body)
+            if not isinstance(data, dict):
+                return None
+            return data
+    except (json.JSONDecodeError, urllib.error.URLError):
+        return None
 
 
 def main():
@@ -44,7 +43,13 @@ def main():
     deadline = time.time() + WAIT_SECONDS
     while True:
         try:
-            found = fetch_contract(contract)
+            payload = fetch_contract(contract) or {}
+            # Resposta do bridge: { ok: true, found: { contrato, telefones, ... } }
+            # Compatibilidade: também aceita payload legado já no formato do contato.
+            found = payload.get("found") if isinstance(payload, dict) else None
+            if not isinstance(found, dict):
+                found = payload if isinstance(payload, dict) and payload.get("contrato") else None
+
             if found and found.get("contrato"):
                 phones = found.get("telefones") or []
                 print(f"[{BOT_BUILD}] contrato={contract} encontrado no TOA cache | telefones={len(phones)}")
@@ -52,7 +57,7 @@ def main():
         except urllib.error.HTTPError as e:
             print(f"[{BOT_BUILD}] bridge HTTP {e.code} para contrato={contract}")
             return 1
-        except Exception as e:  # noqa: BLE001
+        except Exception as e:
             if time.time() >= deadline:
                 print(f"[{BOT_BUILD}] bridge indisponível/sem retorno: {e}")
                 return 1
