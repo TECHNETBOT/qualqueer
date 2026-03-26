@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Captura de Contato OFSC",
+  "version": "1.3",
+  "description": "Extrai números de contato respeitando o CSP.",
+  "permissions": ["storage"],
+  "content_scripts": [
+    {
+      "js": ["content.js"],
+      "matches": ["<all_urls>"],
+      "run_at": "document_start",
+      "all_frames": true,
+      "world": "MAIN"
+    }
+  ]
+}

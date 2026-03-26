@@ -1,0 +1,14 @@
+{
+  "120363406741761305@g.us": {
+    "contrato": "4932106",
+    "nomeCliente": "FRANCISCO MARCONI RODRIGUES ALVES",
+    "tecnico": "ANTONIO ILTON",
+    "equipamentos": [
+      {
+        "modelo": "EMTA",
+        "serial": "400FC1809924"
+      }
+    ],
+    "timestamp": 1772627723608
+  }
+}

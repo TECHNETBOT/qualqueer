@@ -1,0 +1,291 @@
+RELATÓRIO (TODAS AS MENSAGENS NO INTERVALO): 09/03/2026 a 09/03/2026
+===============================================================================================
+
+[07:09, 09/03/2026] Genival Querino: Bom dia
+------------------------------------------------------------
+[07:29, 09/03/2026] Allan DESC NTL: Bom dia
+------------------------------------------------------------
+[07:40, 09/03/2026] Alex Campos - Supervisor Operacional Desconexão: Bom dia Prezados!
+------------------------------------------------------------
+[07:40, 09/03/2026] GABRIEL BRITO DESC NTL: Bom dia
+------------------------------------------------------------
+[07:46, 09/03/2026] Saulo DESC NTL: Bom dia
+------------------------------------------------------------
+[08:21, 09/03/2026] Genival Querino: 3821120-430 frt obs sem acessórios
+------------------------------------------------------------
+[08:22, 09/03/2026] Genival Querino: 3710069-430 frt obs sem acessórios
+------------------------------------------------------------
+[08:26, 09/03/2026] Matheus Freitas AN: GATILHO - ACOMPANHAMENTO POR PONTOS | Segue o acompanhamento das pontuações referente aos serviços executados até dia 08/03. | Logo abaixo estão as PROJEÇÕES! | Se aparecer "PROJETADO", significa que se você continuar na média que você está fazendo atualmente (especificada ao lado do seu nome), está projetado para conseguir atingir o determinado gatilho! | Do contrário, é necessário que você faça a quantidade de pontos por dia especificada abaixo de cada gatilho.
+------------------------------------------------------------
+[08:27, 09/03/2026] Allan DESC NTL: DX 22 NTL | RET OUTRO END 09/03 | Contrato: 3551610 | agenda: 08:00 - 11:00 | Nome: DAEL INACIO DA SILVA | Endereço: R ADRIANO NOBRE, 1326 - QUINTAS | Telefone: 84981347937 / 84987612189 | END RET:  AV NEVALDO ROCHA, 315, QUINTAS, 59035015 | TECNICO: ALLAN JAYVERSON DA COSTA
+------------------------------------------------------------
+[08:32, 09/03/2026] Saulo DESC NTL: 3430759 fr
+------------------------------------------------------------
+[08:32, 09/03/2026] Saulo DESC NTL: 9474062 fr
+------------------------------------------------------------
+[08:56, 09/03/2026] GABRIEL BRITO DESC NTL: 3731783 306 não reside mais no endereço ativo sem sucesso aguardando resposta no whats
+------------------------------------------------------------
+[08:56, 09/03/2026] Saulo DESC NTL: 3689370
+------------------------------------------------------------
+[08:59, 09/03/2026] Allan DESC NTL: Tipo de Atividade | Desconexao Inad | Nome | LORENA CARY CAMPOS FERREIRA | Endereço | R ARY PARREIRAS, 267 - ALECRIM | Cidade | NATAL | UF | RN | CEP/Código Postal | 59040-220 | Telefone Residencial do Cliente | 84998097355 | Telefone Celular do Cliente | 84996530075 | Janela de Serviço | 08:00 - 22:00 | Intervalo de Tempo | 08:00 - 22:00 | Início - Fim | 16:15 - 16:24 | Duração | 9 minutos | Status da Atividade | iniciado | Contrato | 3354726 | 106 - ativo sem sucesso cliente ausente. Aguardando resposta no whatsapp
+------------------------------------------------------------
+[09:00, 09/03/2026] Victor DESC NTL: 3446850
+------------------------------------------------------------
+[09:13, 09/03/2026] GABRIEL BRITO DESC NTL: 2883024 404 cliente está com problemas de saúde informou que vai entra em contato  pra fazer o agendamento
+------------------------------------------------------------
+[09:15, 09/03/2026] Elvis técnico DESC NTL: 2297583 430
+------------------------------------------------------------
+[09:25, 09/03/2026] Genival Querino: 3233872-430
+------------------------------------------------------------
+[09:31, 09/03/2026] Victor DESC NTL: 3581307
+------------------------------------------------------------
+[09:34, 09/03/2026] Allan DESC NTL: 9716026 - 430
+------------------------------------------------------------
+[09:35, 09/03/2026] Alex Campos - Supervisor Operacional Desconexão: Encaminhada | Pessoal, bom dia! | Quero reforçar um ponto muito importante durante os atendimentos em campo: a oferta de complementos para o cliente. | Temos soluções que melhoram a experiência do cliente, evitam problemas futuros na rede dentro da casa e ainda geram retorno financeiro para a equipe que realiza a venda. Ou seja, é uma oportunidade de ajudar o cliente e também aumentar o ganho do técnico. | Muitas vezes o cliente tem dificuldades de sinal, cobertura de Wi-Fi ou necessidade de mais pontos, e nós já temos a solução no momento do atendimento. Por isso, criem o hábito de sempre apresentar as opções antes de finalizar o serviço. | Complementos disponíveis para oferta: | WiFi Mesh – R$ 30/mês (kit com 2 unidades) | Melhora a cobertura do Wi-Fi na casa, ideal para r…Ler mais
+------------------------------------------------------------
+[09:36, 09/03/2026] Genival Querino: 3811191-430
+------------------------------------------------------------
+[09:37, 09/03/2026] GABRIEL BRITO DESC NTL: 2534283 430
+------------------------------------------------------------
+[09:55, 09/03/2026] Genival Querino: 3571409-430
+------------------------------------------------------------
+[09:56, 09/03/2026] +55 84 9709-9779: João Maria | +55 84 9709-9779 | 1259260
+------------------------------------------------------------
+[09:56, 09/03/2026] GABRIEL BRITO DESC NTL: 2324920 106 cliente ausente informou  que vai entra em contato pra fazer um novo agendamento
+------------------------------------------------------------
+[10:07, 09/03/2026] Elvis técnico DESC NTL: Elvis técnico DESC NTL | Álbum | 2914809 - 479 bx 430
+------------------------------------------------------------
+[10:09, 09/03/2026] Allan DESC NTL: 3575030 - 306 não tem essa pessoa nesse endereço !
+------------------------------------------------------------
+[10:19, 09/03/2026] GABRIEL BRITO DESC NTL: 9273213 312 cliente não solicitou o serviço  e os equipamentos que se encontram  no endereço  não do mesmo contrato
+------------------------------------------------------------
+[10:23, 09/03/2026] Genival Querino: 3495168-430
+------------------------------------------------------------
+[10:23, 09/03/2026] Victor DESC NTL: 3831303 430
+------------------------------------------------------------
+[10:28, 09/03/2026] Allan DESC NTL: 3782477 - FR
+------------------------------------------------------------
+[10:30, 09/03/2026] Elvis técnico DESC NTL: 1974549 - 430 bx 404
+------------------------------------------------------------
+[10:34, 09/03/2026] Victor DESC NTL: 3654088 430
+------------------------------------------------------------
+[10:36, 09/03/2026] Allan DESC NTL: Tipo de Atividade | Desconexao Inad | Nome | FRANCISCA GOMES DA SILVA | Endereço | R QUATRO DE OUTUBRO, 157 - ROCAS | Cidade | NATAL | UF | RN | CEP/Código Postal | 59010-620 | Telefone Residencial do Cliente | 11111111111 | Telefone Celular do Cliente | 84991882905 | Janela de Serviço | 08 - 22 | Intervalo de Tempo | 08:00 - 22:00 | Início - Fim | 10:32 - 10:41 | Duração | 00:09 | Status da Atividade | iniciado | Contrato | 2267641 | Parente informou que a cliente faleceu e que  não tem esse equipamento no endereço | @Alex Campos - Supervisor Operacional Desconexão
+------------------------------------------------------------
+[10:47, 09/03/2026] Elvis técnico DESC NTL: 3760520
+------------------------------------------------------------
+[10:55, 09/03/2026] Allan DESC NTL: 2315883- 106 Ativo sem sucesso cliente ausente
+------------------------------------------------------------
+[11:01, 09/03/2026] Allan DESC NTL: 3781241 - cliente informou que só vai está em. Casa quarta feira
+------------------------------------------------------------
+[11:04, 09/03/2026] GABRIEL BRITO DESC NTL: 1253601 430
+------------------------------------------------------------
+[11:04, 09/03/2026] Genival Querino: DX 22 NTL | RET OUTRO END 09/03 | Contrato: 3595391 | agenda: 08:00 - 11:00 | Nome: RITA GOMES BEZERRA | Endereço: R TANCREDO NEVES, 393 - PAJUCARA | Telefone: 84996426133 / 84998404301 | END RET: R TANCREDO NEVES, 383 PAJUCARA, 59125-500 | TECNICO: GENIVAL QUIRINO DE OLIVEIRA NETO
+------------------------------------------------------------
+[11:12, 09/03/2026] Allan DESC NTL: Tipo de Atividade | Retirada Equipamento | Nome | ADELIA MARIA ROCHA DINIZ CARNEIRO LEAO | Endereço | AV GOV SILVIO PEDROZA, 304 - AREIA PRETA | Cidade | NATAL | UF | RN | CEP/Código Postal | 59014-100 | Telefone Residencial do Cliente | 84999621963 | Telefone Celular do Cliente | 84999918418 | Janela de Serviço | 08 - 11 | Intervalo de Tempo | 08:00 - 11:00 | Início - Fim | 10:52 - 11:01 | Duração | 00:09 | Status da Atividade | pendente | Contrato | 2890411 | 106 - ativo sem sucesso cliente ausente.
+------------------------------------------------------------
+[11:12, 09/03/2026] GABRIEL BRITO DESC NTL: FORA ROTA | CONTRATO: 1227481 | NOME: EVERTON BRUNO DO NASCIMENTO COSTA | END: R ALTO DO RODRIGUES, 8 - NV PARNAMIRIM ,LJ 3 | AGENDA: 08:00 - 11:00 | TEL: 84988746862
+------------------------------------------------------------
+[11:24, 09/03/2026] Alex Campos - Supervisor Operacional Desconexão: VALIDAÇÃO NA URA! | A nova ferramenta de contatos veio para ajudar e facilitar nosso dia a dia, tornando o contato com o cliente mais rápido e prático. | Mas atenção: ela NÃO substitui a validação pela URA. | A validação na URA é obrigatória em TODAS as atividades, principalmente nas baixas improdutivas. | Esse é um processo simples, depende só da gente e faz total diferença nos nossos resultados e indicadores. Vamos fazer certinho! | Como validar corretamente (passo a passo): | Acesse o TOA e inicie a OS. | Ligue para o cliente pela URA, usando o botão “Ligar para Cliente”. | É OBRIGATÓRIO FAZER DUAS LIGAÇÕES, sem exceção: | Se houver dois ou mais números, ligue para dois números diferentes. | Se houver apenas um número, ligue duas vezes para | …Ler mais
+------------------------------------------------------------
+[11:29, 09/03/2026] Elvis técnico DESC NTL: 2508754 - 430 fr
+------------------------------------------------------------
+[11:29, 09/03/2026] Saulo DESC NTL: 1241328
+------------------------------------------------------------
+[11:32, 09/03/2026] Victor DESC NTL: 3689663
+------------------------------------------------------------
+[11:34, 09/03/2026] Allan DESC NTL: Tipo de Atividade | Desconexao Inad | Nome | MARIA DAS GRACAS BARBOSA | Endereço | AV PRUDENTE DE MORAIS, 16 - PETROPOLIS | Cidade | NATAL | UF | RN | CEP/Código Postal | 59020-400 | Telefone Residencial do Cliente | 84988827855 | Janela de Serviço | 08 - 22 | Intervalo de Tempo | 08:00 - 22:00 | Início - Fim | 13:24 - 13:33 | Duração | 00:09 | Status da Atividade | iniciado | Contrato | 3666850 | Não tem essa pessoa nesse endereço e o número do telefone não é do cliente
+------------------------------------------------------------
+[11:35, 09/03/2026] Saulo DESC NTL: 1255078
+------------------------------------------------------------
+[11:40, 09/03/2026] GABRIEL BRITO DESC NTL: 9439712 430
+------------------------------------------------------------
+[11:42, 09/03/2026] Allan DESC NTL: 2598850. - 312 cliente informou que não solicitou o serviço
+------------------------------------------------------------
+[11:57, 09/03/2026] Allan DESC NTL: 2699436 - 430
+------------------------------------------------------------
+[12:01, 09/03/2026] GABRIEL BRITO DESC NTL: 9463907 430
+------------------------------------------------------------
+[12:02, 09/03/2026] Saulo DESC NTL: 1242391 cliente  informou  que  não  tem  nem  um  equipamento
+------------------------------------------------------------
+[12:02, 09/03/2026] Saulo DESC NTL: [sem texto / mídia]
+------------------------------------------------------------
+[12:04, 09/03/2026] Allan DESC NTL: [sem texto / mídia]
+------------------------------------------------------------
+[12:11, 09/03/2026] Genival Querino: 1154800-430
+------------------------------------------------------------
+[12:13, 09/03/2026] Saulo DESC NTL: DX 22 NTL | ENTRE CIDADES 09/03 | Contrato: 76861428 | agenda: 08:00 - 11:00 | Nome: RAFAEL FELIX RAPOSO DA COSTA PEREIRA | Endereço: AV MAL FONTENELLE, 755 - CAMPO DOS AFONSOS | Telefone: 21991683434 / 92991523275 | END RET:  RUA DO ESPECIALISTA, J5 VILA MILITAR DOS OFICIAIS 	EMAUS	59148185 | TECNICO: SAULO EURIPIS MELO DE JESUS  cliente  achou de sair  de casa
+------------------------------------------------------------
+[12:16, 09/03/2026] GABRIEL BRITO DESC NTL: 9422372 404 cliente informou que já foi recolhido mais não apresentou comprovante
+------------------------------------------------------------
+[12:20, 09/03/2026] Genival Querino: 6004424-430
+------------------------------------------------------------
+[12:28, 09/03/2026] Allan DESC NTL: Tipo de Atividade | Desconexao Inad | Nome | WALKIRIA MONTEIRO SILVA | Endereço | R LEONEL LEITE, 1376 - ALECRIM | Cidade | NATAL | UF | RN | CEP/Código Postal | 59037-820 | Telefone Residencial do Cliente | 84991069925 | Telefone Celular do Cliente | 84991069925 | Janela de Serviço | 08:00 - 22:00 | Intervalo de Tempo | 08:00 - 22:00 | Início - Fim | 12:21 - 12:30 | Duração | 9 minutos | Status da Atividade | iniciado | Contrato | 3576125 | 306 não tem essa pessoa nesse endereço. Aguardando resposta no whatsapp
+------------------------------------------------------------
+[12:34, 09/03/2026] Victor DESC NTL: 3891144 516
+------------------------------------------------------------
+[12:35, 09/03/2026] GABRIEL BRITO DESC NTL: 3747426 430
+------------------------------------------------------------
+[12:36, 09/03/2026] Genival Querino: 3326021-430
+------------------------------------------------------------
+[12:43, 09/03/2026] Saulo DESC NTL: 1223885 equipamento  ja recolhido
+------------------------------------------------------------
+[12:49, 09/03/2026] Saulo DESC NTL: 1101615
+------------------------------------------------------------
+[12:55, 09/03/2026] GABRIEL BRITO DESC NTL: 3811515 430
+------------------------------------------------------------
+[12:56, 09/03/2026] Elvis técnico DESC NTL: Elvis técnico DESC NTL | 2 fotos | @Dalton Controlador Apoio @Alex Campos - Supervisor Operacional Desconexão | 12:56 | 2
+------------------------------------------------------------
+[13:00, 09/03/2026] Allan DESC NTL: 3862772 - 409
+------------------------------------------------------------
+[13:04, 09/03/2026] GABRIEL BRITO DESC NTL: 1528727 430
+------------------------------------------------------------
+[13:08, 09/03/2026] Victor DESC NTL: 3036589
+------------------------------------------------------------
+[13:13, 09/03/2026] Elvis técnico DESC NTL: 1212263 - 430 | Obs: cliente não achou o decoder
+------------------------------------------------------------
+[13:13, 09/03/2026] Elvis técnico DESC NTL: Elvis técnico DESC NTL | 1212263 - 430 | Obs: cliente não achou o decoder | Sem fonte
+------------------------------------------------------------
+[13:18, 09/03/2026] Saulo DESC NTL: 1211330
+------------------------------------------------------------
+[13:20, 09/03/2026] Elvis técnico DESC NTL: FORA ROTA | CONTRATO: 8623293 | NOME: CLAUDIO HENRIQUE FERREIRA BRAGA | END: R JOSE M DA CRUZ, 18 - PRQ DAS NACOES | AGENDA: 08:00 - 11:00 | TEL: 84988336435 | Motivo - 312 cliente não solicitou o serviço de retirada de equipamento
+------------------------------------------------------------
+[13:22, 09/03/2026] GABRIEL BRITO DESC NTL: 1355687 404 cliente informou que perdeu o equipamento
+------------------------------------------------------------
+[13:22, 09/03/2026] Genival Querino: [sem texto / mídia]
+------------------------------------------------------------
+[13:22, 09/03/2026] Genival Querino: Genival Querino | Localização | 3819265-101 número 213 não tem nessa rua tentei contato por telefone sem sucesso
+------------------------------------------------------------
+[13:31, 09/03/2026] Elvis técnico DESC NTL: FORA ROTA | CONTRATO: 9031810 | NOME: AARON FERRER FREIRE | END: AV DAS AMERICAS, 2400 - PRQ DAS NACOES ,COND PARQUE MORUMBI,CASA 141 | AGENDA: 08:00 - 11:00 | TEL: 84996315995 | TEL: 84981281810 | Motivo - 106 cliente informou que não estava em casa e só chega no final da tarde
+------------------------------------------------------------
+[13:33, 09/03/2026] Elvis técnico DESC NTL: 9472230 - 306 cliente me informou via WhatsApp que não mora mais no endereço e não quis informar onde fica o novo endereço.
+------------------------------------------------------------
+[13:43, 09/03/2026] Saulo DESC NTL: 3212662
+------------------------------------------------------------
+[13:51, 09/03/2026] Genival Querino: 3596410-430
+------------------------------------------------------------
+[13:54, 09/03/2026] Saulo DESC NTL: 2607914
+------------------------------------------------------------
+[13:57, 09/03/2026] GABRIEL BRITO DESC NTL: 3791174 106 cliente ausente ativo sem sucesso aguardando resposta no whats
+------------------------------------------------------------
+[14:09, 09/03/2026] GABRIEL BRITO DESC NTL: FORA ROTA | CONTRATO: 3568564 | NOME: ANDERSON JUSTINO PEREIRA | END: R STA INES, 255 - PAJUCARA ,BL 9,APT 410 | AGENDA: 11:00 - 14:00 | TEL: 84987654738 | TEL: 84987695473 | Obs cliente não reside mais no endereço novo morador no local ativo sem sucesso aguardando resposta no whats
+------------------------------------------------------------
+[14:10, 09/03/2026] Genival Querino: 3408206-409
+------------------------------------------------------------
+[14:23, 09/03/2026] Victor DESC NTL: 3802095 106 Cliente ausente  informou via ura que so ta em casa depois das 18hrs
+------------------------------------------------------------
+[14:24, 09/03/2026] GABRIEL BRITO DESC NTL: 3664296 106 cliente ausente ativo sem sucesso aguardando resposta no whats
+------------------------------------------------------------
+[14:32, 09/03/2026] Saulo DESC NTL: 3837239
+------------------------------------------------------------
+[14:47, 09/03/2026] GABRIEL BRITO DESC NTL: 3590020 430
+------------------------------------------------------------
+[14:51, 09/03/2026] Alex Campos - Supervisor Operacional Desconexão: Encaminhada | O compromisso é simples: ofertar WiFi Mesh em todos os atendimentos. | Muitos clientes têm problema de Wi-Fi dentro de casa sinal fraco no quarto, internet ruim na sala ou travando em alguns pontos. E é exatamente aí que entra a solução. | WiFi Mesh leva o sinal para toda a casa, trazendo mais estabilidade, velocidade e melhor experiência para o cliente. | Condições para o cliente: | WiFi Mesh (2 unidades) – R$ 30,00/mês | Instalação simples, realizada no momento do atendimento ou para data agendada | Mais cobertura de Wi-Fi em toda a residência | E tem mais: estamos com uma CAMPANHA SENSACIONAL da empresa, incentivando as equipes a levarem essa solução para cada vez mais clientes. | Isso significa: | Mais satisfação para o cliente | Mais valor agregado no ate…Ler mais
+------------------------------------------------------------
+[14:56, 09/03/2026] GABRIEL BRITO DESC NTL: 3811248 430
+------------------------------------------------------------
+[15:09, 09/03/2026] Allan DESC NTL: 3754961 - 430
+------------------------------------------------------------
+[15:11, 09/03/2026] Victor DESC NTL: 2773156
+------------------------------------------------------------
+[15:12, 09/03/2026] Genival Querino: 3817378-430
+------------------------------------------------------------
+[15:13, 09/03/2026] GABRIEL BRITO DESC NTL: 3809901 430
+------------------------------------------------------------
+[15:28, 09/03/2026] GABRIEL BRITO DESC NTL: 3870643
+------------------------------------------------------------
+[15:30, 09/03/2026] Genival Querino: 3285082-430
+------------------------------------------------------------
+[15:31, 09/03/2026] GABRIEL BRITO DESC NTL: 3686699 106 cliente ausente ativo sem sucesso aguardando resposta no whats
+------------------------------------------------------------
+[15:32, 09/03/2026] Elvis técnico DESC NTL: 1207502 - 516
+------------------------------------------------------------
+[15:35, 09/03/2026] Allan DESC NTL: 3646190 - 430
+------------------------------------------------------------
+[15:43, 09/03/2026] Saulo DESC NTL: [sem texto / mídia]
+------------------------------------------------------------
+[15:47, 09/03/2026] GABRIEL BRITO DESC NTL: 3801889 430
+------------------------------------------------------------
+[15:48, 09/03/2026] Victor DESC NTL: 3721621 409
+------------------------------------------------------------
+[15:49, 09/03/2026] Allan DESC NTL: 3223583 - 404 cliente informou que outro técnico já recolheu o equipamento !
+------------------------------------------------------------
+[15:52, 09/03/2026] Genival Querino: 1740750-125 cliente solicitou reagendamento pra amanhã das 14 as 17
+------------------------------------------------------------
+[15:53, 09/03/2026] Genival Querino: @Alex Campos - Supervisor Operacional Desconexão
+------------------------------------------------------------
+[15:54, 09/03/2026] Genival Querino: @Marcelle DESC
+------------------------------------------------------------
+[15:58, 09/03/2026] GABRIEL BRITO DESC NTL: 3568424 430
+------------------------------------------------------------
+[15:59, 09/03/2026] Elvis técnico DESC NTL: 8685612 - 430 bx 106
+------------------------------------------------------------
+[16:01, 09/03/2026] Genival Querino: 3808107-125 cliente solicitou reagendamento pra amanhã na parte da tarde
+------------------------------------------------------------
+[16:01, 09/03/2026] Genival Querino: @Alex Campos - Supervisor Operacional Desconexão
+------------------------------------------------------------
+[16:02, 09/03/2026] Allan DESC NTL: Tipo de Atividade | Desconexao Inad | Nome | EMANUELLA MARIA DA SILVA | Endereço | R ALIPIO BANDEIRA, 14 - QUINTAS | Cidade | NATAL | UF | RN | CEP/Código Postal | 59035-040 | Telefone Residencial do Cliente | 84996141159 | Telefone Celular do Cliente | 84996141159 | Janela de Serviço | 08:00 - 22:00 | Intervalo de Tempo | 08:00 - 22:00 | Início - Fim | 15:56 - 16:05 | Duração | 9 minutos | Status da Atividade | iniciado | Contrato | 3783473 | 306 - novo morador no endereço !
+------------------------------------------------------------
+[16:02, 09/03/2026] Genival Querino: @Marcelle DESC
+------------------------------------------------------------
+[16:14, 09/03/2026] GABRIEL BRITO DESC NTL: 3820476 106 cliente ausente ativo sem sucesso aguardando resposta no whats
+------------------------------------------------------------
+[16:15, 09/03/2026] Genival Querino: [sem texto / mídia]
+------------------------------------------------------------
+[16:15, 09/03/2026] Genival Querino: Genival Querino | Localização | 3798608-101 número 19 não tem nessa rua tentei contato por telefone sem sucesso número cadastrado não é do cliente
+------------------------------------------------------------
+[16:18, 09/03/2026] Allan DESC NTL: Tipo de Atividade | Desconexao Inad | Nome | GUILHERME TEIXEIRA FIRMINO DOS SANTOS | Endereço | R JOSE VICTORIANO DE MEDEIROS, 48 - QUINTAS | Cidade | NATAL | UF | RN | CEP/Código Postal | 59035-380 | Telefone Residencial do Cliente | 84999058529 | Telefone Celular do Cliente | 84999058529 | Janela de Serviço | 08 - 22 | Intervalo de Tempo | 08:00 - 22:00 | Início - Fim | 16:15 - 16:24 | Duração | 00:09 | Status da Atividade | iniciado | Contrato | 3616330 | 106 - ativo sem sucesso cliente ausente
+------------------------------------------------------------
+[16:23, 09/03/2026] Alex Campos - Supervisor Operacional Desconexão: Elvis técnico DESC NTL | 2297583 430 | @Marcelle DESC
+------------------------------------------------------------
+[16:25, 09/03/2026] Alex Campos - Supervisor Operacional Desconexão: Genival Querino | 3285082-430 | @Dalton Controlador Apoio
+------------------------------------------------------------
+[16:25, 09/03/2026] Allan DESC NTL: [sem texto / mídia]
+------------------------------------------------------------
+[16:26, 09/03/2026] Allan DESC NTL: Allan DESC NTL | Localização | Tipo de Atividade | Desconexao Inad | Nome | paula kamilly ferreira brasil | Endereço | TV VINTE E CINCO DE MARCO, 7 - QUINTAS | Cidade | NATAL | UF | RN | CEP/Código Postal | 59035-315 | Telefone Residencial do Cliente | 8486957834 | Telefone Celular do Cliente | 8486957834 | Janela de Serviço | 08:00 - 22:00 | Intervalo de Tempo | 08:00 - 22:00 | Início - Fim | 16:23 - 16:32 | Duração | 9 minutos | Status da Atividade | iniciado | Contrato | 3811370 | Número não existe na rua . Aguardando resposta no whatsapp
+------------------------------------------------------------
+[16:26, 09/03/2026] GABRIEL BRITO DESC NTL: 2713170 430
+------------------------------------------------------------
+[16:28, 09/03/2026] Genival Querino: 3706592-430
+------------------------------------------------------------
+[16:30, 09/03/2026] Saulo DESC NTL: 3561292
+------------------------------------------------------------
+[16:35, 09/03/2026] Victor DESC NTL: 3683525 430
+------------------------------------------------------------
+[16:36, 09/03/2026] GABRIEL BRITO DESC NTL: 3284833 430
+------------------------------------------------------------
+[16:40, 09/03/2026] Saulo DESC NTL: 3748996
+------------------------------------------------------------
+[16:47, 09/03/2026] Alex Campos - Supervisor Operacional Desconexão: Encaminhada | Opa… tem outra atividade na caixa! | Isso significa outra oportunidade. | Outra oportunidade de produzir, de ofertar, de agregar ainda mais valor ao serviço executado. | Cada atendimento é uma chance de fazer uma entrega de qualidade, explicar as soluções disponíveis e proporcionar ao cliente um atendimento completo e diferenciado. | Mais uma atividade. Mais uma oportunidade de fazer um excelente trabalho.
+------------------------------------------------------------
+[16:47, 09/03/2026] GABRIEL BRITO DESC NTL: 3683975 306 cliente não reside no endereço via ativo cliente informou que nunca morou no endereço e que o equipamento da Internet está com pagamento em dias
+------------------------------------------------------------
+[16:48, 09/03/2026] Genival Querino: 2652944-125 cliente solicitou reagendamento pra quinta feira
+------------------------------------------------------------
+[16:48, 09/03/2026] Genival Querino: @Alex Campos - Supervisor Operacional Desconexão
+------------------------------------------------------------
+[16:48, 09/03/2026] Genival Querino: @Marcelle DESC
+------------------------------------------------------------
+[16:49, 09/03/2026] Allan DESC NTL: 2648742 - 430
+------------------------------------------------------------
+[16:55, 09/03/2026] Allan DESC NTL: [sem texto / mídia]
+------------------------------------------------------------
+[16:55, 09/03/2026] Allan DESC NTL: Allan DESC NTL | Localização | Tipo de Atividade | Desconexao Inad | Nome | 63770202 ELIELZA GERALDO ANDRADE DA SILV | Endereço | R PST FRANCISCO GONZAGA, 1 - ALECRIM | Cidade | NATAL | UF | RN | CEP/Código Postal | 59032-460 | Telefone Residencial do Cliente | 84996546900 | Telefone Celular do Cliente | 84996546900 | Janela de Serviço | 08:00 - 22:00 | Intervalo de Tempo | 08:00 - 22:00 | Início - Fim | 17:01 - 17:10 | Duração | 9 minutos | Status da Atividade | pendente | Contrato | 3807992 | Número não existe na rua
+------------------------------------------------------------
+[16:55, 09/03/2026] Victor DESC NTL: 3724817 430
+------------------------------------------------------------
+[16:56, 09/03/2026] Elvis técnico DESC NTL: 2291259 - 312 não foi preciso trocar o equipamento, pois o antigo apenas estava sem está conectado no cabo hdmi
+------------------------------------------------------------
+[16:59, 09/03/2026] GABRIEL BRITO DESC NTL: 3683495 cliente não responde no endereço ativo sem sucesso aguardando resposta no whats
+------------------------------------------------------------
+[17:00, 09/03/2026] Genival Querino: 3762824-430 frt obs sem acessórios
+------------------------------------------------------------
+[17:03, 09/03/2026] Victor DESC NTL: 2920426 fr
+------------------------------------------------------------
+[17:10, 09/03/2026] GABRIEL BRITO DESC NTL: 3705286 101 não localizo o endereço cliente pediu pra reagendar pra manhã mais não informou o endereço
+------------------------------------------------------------
+[17:10, 09/03/2026] GABRIEL BRITO DESC NTL: [sem texto / mídia]
+------------------------------------------------------------
+[17:12, 09/03/2026] Genival Querino: 3867901-430 frt
+------------------------------------------------------------
+[17:14, 09/03/2026] Saulo DESC NTL: [sem texto / mídia]
+------------------------------------------------------------

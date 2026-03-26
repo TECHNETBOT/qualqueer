@@ -1,0 +1,39 @@
+{
+  "name": "bot-whatsapp-base",
+  "version": "1.0.0",
+  "description": "Bot Operacional Imperium - Natal/RN, Mossoró/RN, Fortaleza/CE",
+  "main": "index.js",
+  "scripts": {
+    "start": "pm2 start ecosystem.config.js",
+    "stop": "pm2 stop bot-whatsapp-base",
+    "restart": "pm2 restart bot-whatsapp-base",
+    "logs": "pm2 logs bot-whatsapp-base",
+    "monit": "pm2 monit",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "baileys",
+    "toa"
+  ],
+  "author": "Technet",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "^7.0.0-rc.9",
+    "adm-zip": "^0.5.16",
+    "axios": "^1.13.4",
+    "canvas": "^3.2.1",
+    "cheerio": "^1.2.0",
+    "csv-parse": "^6.1.0",
+    "googleapis": "^171.4.0",
+    "node-fetch": "^2.7.0",
+    "pino": "^10.3.0",
+    "puppeteer": "^24.38.0",
+    "qrcode-terminal": "^0.12.0",
+    "sharp": "^0.34.5",
+    "tesseract.js": "^7.0.0",
+    "xlsx": "^0.18.5"
+  }
+}

@@ -1,0 +1,239 @@
+#!/usr/bin/env python3
+"""Login automático no TOA via Selenium."""
+
+import os
+import sys
+import time
+import threading
+
+BOT_BUILD = os.getenv("BOT_BUILD", "v30")
+
+# ── Credenciais ───────────────────────────────────────────────────────────────
+TOA_USER = os.getenv("TOA_USER", "z631404")
+TOA_PASS = os.getenv("TOA_PASS", "B@QkJtat93vG")
+
+TOA_LOGIN_URL = os.getenv(
+    "TOA_LOGIN_URL",
+    "https://cap.claro.com.br/loginapp2fa/?bmctx=2CB10C3CBDA68EEA32BB0C587A8EA8BC&password=secure_string&contextType=external&username=string"
+)
+TOA_MAIN_URL  = os.getenv("TOA_MAIN_URL", "https://clarobrasil.etadirect.com/toa/")
+
+LOGIN_TIMEOUT = int(os.getenv("TOA_LOGIN_TIMEOUT", "30"))
+MAX_RETRIES   = int(os.getenv("TOA_LOGIN_RETRIES", "3"))
+RETRY_DELAY   = int(os.getenv("TOA_RETRY_DELAY", "5"))
+
+
+def log(msg: str):
+    print(f"[{BOT_BUILD}] {msg}", flush=True)
+
+
+def _get_driver():
+    try:
+        from selenium import webdriver
+        from selenium.webdriver.chrome.options import Options
+    except ImportError:
+        log("selenium não instalado. Rode: pip install selenium --break-system-packages")
+        return None
+
+    options = Options()
+    options.add_argument("--start-maximized")
+    options.add_argument("--disable-notifications")
+    options.add_argument("--no-sandbox")
+    options.add_argument("--disable-dev-shm-usage")
+
+    # Chrome do Windows via WSL
+    win_chrome = "/mnt/c/Program Files/Google/Chrome/Application/chrome.exe"
+    if os.path.exists(win_chrome):
+        options.binary_location = win_chrome
+        log(f"Usando Chrome do Windows")
+        try:
+            local_app = os.popen("cmd.exe /c echo %LOCALAPPDATA% 2>/dev/null").read().strip()
+            if local_app:
+                win_profile = local_app.replace("\\", "/").replace("C:", "/mnt/c") + "/Google/Chrome/User Data"
+                if os.path.isdir(win_profile):
+                    options.add_argument(f"--user-data-dir={win_profile}")
+                    options.add_argument("--profile-directory=Default")
+                    log(f"Perfil Windows: {win_profile}")
+        except Exception:
+            pass
+    else:
+        log("Chrome Windows não encontrado, usando padrão")
+
+    options.add_experimental_option("excludeSwitches", ["enable-automation"])
+    options.add_experimental_option("useAutomationExtension", False)
+
+    try:
+        driver = webdriver.Chrome(options=options)
+        driver.execute_cdp_cmd("Page.addScriptToEvaluateOnNewDocument", {
+            "source": "Object.defineProperty(navigator, 'webdriver', {get: () => undefined})"
+        })
+        return driver
+    except Exception as e:
+        log(f"Erro ao iniciar Chrome: {e}")
+        return None
+
+
+def _esperar_elemento(driver, by, selector, timeout=10):
+    try:
+        from selenium.webdriver.support.ui import WebDriverWait
+        from selenium.webdriver.support import expected_conditions as EC
+        return WebDriverWait(driver, timeout).until(
+            EC.element_to_be_clickable((by, selector))
+        )
+    except Exception:
+        return None
+
+
+def fazer_login(driver) -> bool:
+    from selenium.webdriver.common.by import By
+    from selenium.webdriver.common.keys import Keys
+    from selenium.webdriver.common.action_chains import ActionChains
+
+    log(f"Abrindo URL de login...")
+    driver.get(TOA_LOGIN_URL)
+    time.sleep(3)
+
+    # Campo USUÁRIO
+    campo_usuario = (
+        _esperar_elemento(driver, By.XPATH, '//input[@name="username" or @id="username"]', timeout=10)
+        or _esperar_elemento(driver, By.XPATH, '//input[contains(@placeholder,"suário") or contains(@placeholder,"sario")]', timeout=5)
+        or _esperar_elemento(driver, By.XPATH, '//input[@type="text"][1]', timeout=5)
+    )
+
+    if not campo_usuario:
+        log("❌ Campo USUÁRIO não encontrado")
+        return False
+
+    log("Digitando usuário...")
+    campo_usuario.clear()
+    campo_usuario.click()
+    time.sleep(0.3)
+    campo_usuario.send_keys(TOA_USER)
+    time.sleep(0.5)
+
+    # Campo SENHA
+    campo_senha = _esperar_elemento(driver, By.XPATH, '//input[@type="password"]', timeout=8)
+    if not campo_senha:
+        log("❌ Campo SENHA não encontrado")
+        return False
+
+    log("Digitando senha...")
+    campo_senha.clear()
+    campo_senha.click()
+    time.sleep(0.3)
+    campo_senha.send_keys(TOA_PASS)
+    time.sleep(0.5)
+
+    # Botão ENVIAR
+    btn_enviar = (
+        _esperar_elemento(driver, By.XPATH, '//button[contains(translate(text(),"enviar","ENVIAR"),"ENVIAR")]', timeout=5)
+        or _esperar_elemento(driver, By.XPATH, '//input[@type="submit"]', timeout=3)
+        or _esperar_elemento(driver, By.XPATH, '//button[@type="submit"]', timeout=3)
+    )
+
+    if btn_enviar:
+        log("Clicando em ENVIAR...")
+        ActionChains(driver).move_to_element(btn_enviar).click().perform()
+    else:
+        log("Botão não encontrado, usando Enter...")
+        campo_senha.send_keys(Keys.RETURN)
+
+    # Aguarda TOA
+    log(f"Aguardando TOA (máx {LOGIN_TIMEOUT}s)...")
+    deadline = time.time() + LOGIN_TIMEOUT
+    while time.time() < deadline:
+        url = driver.current_url
+        if "etadirect.com" in url or ("toa" in url.lower() and "claro" in url.lower()):
+            log("✅ Login bem-sucedido! TOA carregado.")
+            return True
+        try:
+            body = driver.find_element("tag name", "body").text
+            if "System error" in body:
+                log(f"⚠️  Erro de sistema na página")
+                return False
+        except Exception:
+            pass
+        time.sleep(1.5)
+
+    log(f"⚠️  TOA não carregou após {LOGIN_TIMEOUT}s. URL: {driver.current_url}")
+    return False
+
+
+def verificar_toa_ativo(driver) -> bool:
+    try:
+        url = driver.current_url
+        return "etadirect.com" in url or "clarobrasil" in url
+    except Exception:
+        return False
+
+
+def login_com_retry():
+    for tentativa in range(1, MAX_RETRIES + 1):
+        log(f"Tentativa de login {tentativa}/{MAX_RETRIES}...")
+        driver = _get_driver()
+        if not driver:
+            log("Não foi possível criar driver Chrome.")
+            return None
+        try:
+            ok = fazer_login(driver)
+            if ok:
+                return driver
+            log(f"Login falhou na tentativa {tentativa}.")
+            try: driver.quit()
+            except Exception: pass
+        except Exception as e:
+            log(f"Erro na tentativa {tentativa}: {e}")
+            try: driver.quit()
+            except Exception: pass
+
+        if tentativa < MAX_RETRIES:
+            log(f"Aguardando {RETRY_DELAY}s...")
+            time.sleep(RETRY_DELAY)
+
+    log("❌ Todas as tentativas de login falharam.")
+    return None
+
+
+def monitorar_e_reconectar(driver, intervalo: int = 30):
+    def _loop():
+        nonlocal driver
+        while True:
+            time.sleep(intervalo)
+            try:
+                if not verificar_toa_ativo(driver):
+                    log("🔄 TOA caiu! Reconectando...")
+                    try: driver.quit()
+                    except Exception: pass
+                    novo = login_com_retry()
+                    if novo:
+                        driver = novo
+                        log("✅ Reconectado!")
+                    else:
+                        log("❌ Falha ao reconectar.")
+            except Exception as e:
+                log(f"Erro no monitoramento: {e}")
+
+    t = threading.Thread(target=_loop, daemon=True)
+    t.start()
+    log(f"🔍 Monitoramento TOA iniciado (a cada {intervalo}s)")
+    return t
+
+
+def main() -> int:
+    log("Iniciando login automático TOA...")
+    driver = login_com_retry()
+    if driver:
+        log("TOA aberto. Monitorando...")
+        monitorar_e_reconectar(driver, intervalo=30)
+        try:
+            while True:
+                time.sleep(60)
+        except KeyboardInterrupt:
+            log("Encerrando...")
+            driver.quit()
+        return 0
+    return 1
+
+
+if __name__ == "__main__":
+    sys.exit(main())

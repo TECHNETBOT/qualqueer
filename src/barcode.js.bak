@@ -1,0 +1,102 @@
+#!/usr/bin/env python3
+"""
+barcode.py — lê códigos de barra de uma imagem
+Uso: python3 barcode.py <caminho_imagem>
+Saída JSON: [{"tipo": "CM MAC", "valor": "E820E2C5C7A3"}, ...]
+"""
+import sys, json
+from PIL import Image, ImageEnhance, ImageFilter
+import zxingcpp
+
+LABEL_MAP = {
+    'cm mac':   'CM MAC',
+    'emta mac': 'EMTA MAC',
+    's/n':      'S/N',
+    'sn':       'S/N',
+    'serial':   'S/N',
+    'mac':      'MAC',
+}
+
+def decode_image(img):
+    w, h = img.size
+    variants = [
+        img,
+        img.resize((w*2, h*2), Image.LANCZOS),
+        img.resize((w*3, h*3), Image.LANCZOS),
+        ImageEnhance.Contrast(img.resize((w*2, h*2), Image.LANCZOS)).enhance(3.0),
+        img.resize((w*2, h*2), Image.LANCZOS).convert('L').convert('RGB'),
+        img.resize((w*2, h*2), Image.LANCZOS).filter(ImageFilter.SHARPEN).filter(ImageFilter.SHARPEN),
+        img.resize((w*2, h*2), Image.LANCZOS).convert('L').point(lambda x: 0 if x < 128 else 255).convert('RGB'),
+        img.resize((w*2, h*2), Image.LANCZOS).convert('L').point(lambda x: 255 - x).convert('RGB'),
+    ]
+    todos = []
+    vistos = set()
+    for v in variants:
+        try:
+            rs = zxingcpp.read_barcodes(v)
+            for r in rs:
+                t = r.text.strip()
+                if t and t not in vistos:
+                    vistos.add(t)
+                    todos.append(t)
+        except Exception:
+            pass
+    return todos
+
+def inferir_tipo(valor, linhas_texto):
+    """Tenta achar label na linha anterior ao código de barras."""
+    val_norm = valor.strip().upper()
+    for i, linha in enumerate(linhas_texto):
+        norm = linha.strip().lower()
+        if val_norm in linha.upper().replace(' ', '').replace(':', ''):
+            # Olha linha anterior pra label
+            if i > 0:
+                prev = linhas_texto[i-1].strip().lower().rstrip(':').strip()
+                for key, label in LABEL_MAP.items():
+                    if key in prev:
+                        return label
+            # Olha na mesma linha antes do valor
+            before = linha.upper().split(val_norm)[0].rstrip(':').strip().lower()
+            for key, label in LABEL_MAP.items():
+                if key in before:
+                    return label
+    return 'CÓDIGO'
+
+def main():
+    if len(sys.argv) < 2:
+        print(json.dumps({'error': 'Informe o caminho da imagem'}))
+        sys.exit(1)
+
+    path = sys.argv[1]
+    try:
+        img = Image.open(path).convert('RGB')
+    except Exception as e:
+        print(json.dumps({'error': f'Não consegui abrir imagem: {e}'}))
+        sys.exit(1)
+
+    valores = decode_image(img)
+
+    if not valores:
+        print(json.dumps({'error': 'Nenhum código de barras detectado'}))
+        sys.exit(1)
+
+    # Tenta OCR leve pra identificar labels (usa texto da imagem se disponível)
+    # Sem tesseract: usa posição e padrão do valor pra inferir tipo
+    resultados = []
+    for v in valores:
+        tipo = 'CÓDIGO'
+        # Heurística por padrão do valor
+        v_up = v.strip().upper()
+        if len(v_up) == 12 and all(c in '0123456789ABCDEF' for c in v_up):
+            # MAC address (12 hex)
+            tipo = 'MAC'
+        elif v_up.startswith('11') and len(v_up) >= 15:
+            tipo = 'S/N'
+        elif v_up.isdigit() and len(v_up) >= 10:
+            tipo = 'S/N'
+        resultados.append({'tipo': tipo, 'valor': v_up})
+
+    print(json.dumps(resultados, ensure_ascii=False))
+
+if __name__ == '__main__':
+    main()

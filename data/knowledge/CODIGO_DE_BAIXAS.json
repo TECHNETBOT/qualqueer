@@ -1,0 +1,2512 @@
+[
+  {
+    "texto": "Código 100 = AGENDAMENTO NAO CUMPRIDO: QUANDO O TÉCNICO NÃO CONSEGUE CUMPRIR O PERÍODO AGENDADO COM O CLIENTE | Tipo: INSTALAÇÃO/MANUTENÇÃO/RETIRADA/SERVIÇOS",
+    "tags": [
+      "codigo_baixa",
+      "100"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 101 = ENDERECO NAO LOCALIZADO: QUANDO O TÉCNICO NÃO LOCALIZA O ENDEREÇO PARA EXECUTAR O SERVIÇO. | Tipo: INSTALAÇÃO/MANUTENÇÃO/RETIRADA/SERVIÇOS",
+    "tags": [
+      "codigo_baixa",
+      "101"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 103 = CHUVA: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E IDENTIFICA QUE O SERVIÇO NÃO PODERÁ SER REALIZADO DEVIDO À CHUVA. | Tipo: INSTALAÇÃO/MANUTENÇÃO/RETIRADA/SERVIÇOS",
+    "tags": [
+      "codigo_baixa",
+      "103"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 104 = FALTA DE MATERIAL: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E NÃO CONSEGUE EXECUTAR O SERVIÇO, DEVIDO À FALTA DE MATERIAL OU EQUIPAMENTO. | Tipo: INSTALAÇÃO/MANUTENÇÃO/SERVIÇOS",
+    "tags": [
+      "codigo_baixa",
+      "104"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 105 = SEM ENERGIA ELETRICA NA REGIAO/PREDIO/RESIDENCIA: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E NÃO CONSEGUE EXECUTAR O SERVIÇO DEVIDO À FALTA DE ENERGIA ELÉTRICA. | Tipo: INSTALAÇÃO/MANUTENÇÃO/SERVIÇOS",
+    "tags": [
+      "codigo_baixa",
+      "105"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 106 = CLIENTE  AUSENTE: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E O MESMO OU OS RESPONSÁVEIS ESTÃO AUSENTES | Tipo: INSTALAÇÃO/MANUTENÇÃO/RETIRADA/SERVIÇOS",
+    "tags": [
+      "codigo_baixa",
+      "106"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 107 = ENTRADA NAO AUTORIZADA: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA E NÃO OBTÉM AUTORIZAÇÃO DO RESPONSÁVEL PARA SUA ENTRADA. | Tipo: INSTALAÇÃO/MANUTENÇÃO/RETIRADA/SERVIÇOS",
+    "tags": [
+      "codigo_baixa",
+      "107"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 109 = PAGAMENTO APRESENTADO: Quando o cliente apresenta no ato do atendimento o comprovante de pagamento | Tipo: INSTALAÇÃO/MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "109"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 110 = PROBLEMA NA TUBULACAO: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E DETECTA ALGUM PROBLEMA NA TUBULAÇÃO, SENDO NECESSÁRIO RESOLVER O PROBLEMA PARA VIABILIZAR A EXECUÇÃO DO SERVIÇO. | Tipo: INSTALAÇÃO/SERVIÇOS",
+    "tags": [
+      "codigo_baixa",
+      "110"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 111 = REAGENDAMENTO SOLICITADO PELO CLIENTE: QUANDO O CLIENTE ACIONA OS CANIS DE ATENDIMENTO SOLICITANDO REAGENDAMENTO DO ATENDIMENTO TÉCNICO. | Tipo: INSTALAÇÃO/MANUTENÇÃO/RETIRADA/SERVIÇOS",
+    "tags": [
+      "codigo_baixa",
+      "111"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 112 = SEM ACESSO AO DG / SOTAO / COMODO: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E NÃO CONSEGUE ACESSO AO DG OU SÓTÃO PARA EXECUTAR O SERVIÇO | Tipo: INSTALAÇÃO/MANUTENÇÃO/SERVIÇOS",
+    "tags": [
+      "codigo_baixa",
+      "112"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 113 = SEM TV / COMPUTADOR NA RESIDENCIA/ CELULAR: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E CONSTATA QUE O MESMO NÃO POSSUI OS EQUIPAMENTOS, NECESSÁRIOS PARA QUE SE CONCLUA O SERVIÇO. | Tipo: INSTALAÇÃO/SERVIÇOS",
+    "tags": [
+      "codigo_baixa",
+      "113"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 114 = HABILITAÇÃO DE TELEFONE NÃO LIBERADA: QUANDO O TÉCNICO VAI À RESIDÊNCIA DO CLIENTE E ESTÁ IMPOSSIBILITADO DE RESOLVER O PROBLEMA PORQUE A HABILITAÇÃO DA OC DO TELEFONE NÃO FOI PROCESSADA. | Tipo: INSTALAÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "114"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 125 = CLIENTE DESISTE DA AGENDA: CÓDIGO USADO  EXCLUSIVAMENTE PELO CLIENTE NOS CANAIS DIGITAIS, QUANDO ELE DESISTE DO SERVIÇO/VISITA | Tipo: INSTALAÇÃO/MANUTENÇÃO/SERVIÇOS",
+    "tags": [
+      "codigo_baixa",
+      "125"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 126 = SITUACAO PONTUAL DE RISCO: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E IDENTIFICA SITUAÇÃO DE RISCO PERMANENTE OU MOMENTÂNEO À SUA INTEGRIDADE FÍSICA. | Tipo: INSTALAÇÃO/MANUTENÇÃO/RETIRADA/SERVIÇOS",
+    "tags": [
+      "codigo_baixa",
+      "126"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 127 = AREA DE RISCO BLOQUEIO DE ENDERECO: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E IDENTIFICA QUE O ENDEREÇO É ÁREA DE RISCO | Tipo: INSTALAÇÃO/MANUTENÇÃO/RETIRADA/SERVIÇOS",
+    "tags": [
+      "codigo_baixa",
+      "127"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 128 = TUB. GPON OBSTRUÍDA SEM SOLUÇÃO COM CABO HFC: QUANDO O TECNICO IDENTIFICAR QUE A TUBULAÇÃO ESTÁ OBSTRUIDA PORÉM EXISTE CABO HFC | Tipo: INSTALAÇÃO/SERVIÇOS",
+    "tags": [
+      "codigo_baixa",
+      "128"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 129 = ANALISE DE SEGURANCA PUBLICA: QUANDO O TÉCNICO FOR BARRADO PELA MILICIA DO LOCAL IMPOSSIBILITANDO O ATENDIMENTO (USADA APENAS NA CIDADE DO RIO DE JANEIRO) | Tipo: INSTALAÇÃO/MANUTENÇÃO/RETIRADA/SERVIÇOS",
+    "tags": [
+      "codigo_baixa",
+      "129"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 130 = SEM ACESSO A BANDA LARGA: QUANDO O TECNICO IDENTIFICAR QUE O CLIENTE NÃO POSSUI BANDA LARGA PARA QUE OS EQUIPAMENTOS HIBRIDOS FUNCIONEM | Tipo: INSTALAÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "130"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 131 = CONTRATO CADASTRADO NAO REGULARIZADO: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E DETECTA A IMPOSSIBILIDADE DE EXECUTAR O SERVIÇO, POIS EXISTE UM CLIENTE NO LOCAL | Tipo: INSTALAÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "131"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 169 = EXEC. SEM SUCESSO APÓS VÁRIAS TENTATIVAS​: Quando o técnico realiza várias tentativas de retirar o equipamento porem não consegue. | Tipo: RETIRADA",
+    "tags": [
+      "codigo_baixa",
+      "169"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 201 = PROVEDOR COM PROBLEMA: QUANDO PROBLEMAS NO PROVEDOR IMPEDEM A EXECUÇÃO DOS SERVIÇOS EM CAMPO OU SÃO GERADAS VISITAS INDEVIDAS RELACIONADAS A ESTE PROBLEMA | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "201"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 202 = NODE EM OUTAGE: QUANDO O OUTAGE IMPEDE A EXECUÇÃO DOS SERVIÇOS EM CAMPO OU SÃO GERADAS VISITAS INDEVIDAS RELACIONADAS A ESTE PROBLEMA | Tipo: INSTALAÇÃO/MANUTENÇÃO/SERVIÇOS",
+    "tags": [
+      "codigo_baixa",
+      "202"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 203 = REDE EXTERNA COM PROBLEMA: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E DETECTA QUE SÓ CONSEGUIRÁ EXECUTAR O SERVIÇO APÓS UMA INTERVENÇÃO NA REDE EXTERNA | Tipo: INSTALAÇÃO/MANUTENÇÃO/SERVIÇOS",
+    "tags": [
+      "codigo_baixa",
+      "203"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 203 = REDE MOVEL COM PROBLEMA: Quando o Técnico vai até a residência do cliente e detecta que há uma falha na rede móvel que impedem a execução do trabalho. | Tipo: INSTALAÇÃO/MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "203"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 204 = BACKBONE COM PROBLEMA: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E DETECTA QUE SÓ CONSEGUIRÁ EXECUTAR O SERVIÇO APÓS UMA INTERVENÇÃO NO BACKBONE | Tipo: INSTALAÇÃO/MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "204"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 205 = FALTA TAP OU PASSIVO / TAP OU PASSIVO LOTADO: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E DETECTA QUE O TAP OU PASSIVO QUE DEVERIA ESTAR DISPONÍVEL PARA O HP NÃO EXISTE OU ESTÁ LOTADO, IMPEDINDO A EXECUÇÃO DO SERVIÇO. | Tipo: INSTALAÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "205"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 206 = PREDIO SEM BACKBONE: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E DETECTA QUE O MDU NO QUAL O MESMO RESIDE NÃO POSSUI BACKBONE, IMPEDINDO A EXECUÇÃO DO SERVIÇO. | Tipo: INSTALAÇÃO/MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "206"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 207 = PREDIO SEM RETORNO ATIVADO: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E DETECTA QUE O BACKBONE NÃO POSSUI RETORNO ATIVADO, IMPEDINDO A EXECUÇÃO DO SERVIÇO. | Tipo: INSTALAÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "207"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 208 = PROBLEMA NO NOW: QUANDO TÉCNICO VAI A RESIDÊNCIA DO CLIENTE E IDENTIFICA PROBLEMA DO NOW E NECESSITA DE INTERVENÇÃO DO NOC | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "208"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 209 = NAP LOTADA EM MDU: QUANDO O TÉCNICO ENTRAR EM CONTATO INFORMANDO SOBRE A NECESSIDADE DE CONSTRUÇÃO DE MDU PARA A INCLUSÃO DE NOVOS CLIENTES GPON. | Tipo: INSTALAÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "209"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 211 = FALTA NAP / NAP LOTADA: QUANDO O TÉCNICO VAI ATÉ A RESIDENCIA DO CLIENTE E DETECTA QUE A NAP QUE DEVERIA ESTAR DISPONÍVEL PARA O IMÓVEL POSSIVELMENTE ESTÁ CHEIA, IMPEDINDO A REALIZAÇÃO DO SERVIÇO. | Tipo: INSTALAÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "211"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 217 = BACKBONE GPON COM PROBLEMA: Quando o Backbone encontra-se com problema | Tipo: INSTALAÇÃO/MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "217"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 301 = TIPO DE OS INCORRETA: QUANDO O TÉCNICO CONSTATA QUE O OPERADOR UTILIZOU O TIPO DE OS INCORRETA AO DO SERVIÇO SOLICITADO | Tipo: INSTALAÇÃO/MANUTENÇÃO/RETIRADA/SERVIÇOS",
+    "tags": [
+      "codigo_baixa",
+      "301"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 302 = DESISTENCIA DA ASSINATURA / SERVICO: QUANDO O CLIENTE DESISTE DO PEDIDO DA ASSINATURA OU SERVIÇO. ESTE CÓDIGO TAMBÉM DEVE SER UTILIZADO PARA BAIXA DO BACKLOG PARA INSTALAÇÃO, SEVIÇOS E MANUTENÇÃO. | Tipo: INSTALAÇÃO/MANUTENÇÃO/RETIRADA/SERVIÇOS",
+    "tags": [
+      "codigo_baixa",
+      "302"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 304 = NODE NAO LIBERADO (PARA VIRTUA E/OU NET FONE): QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E DETECTA A IMPOSSIBILIDADE DE EXECUTAR O SERVIÇO, POIS O NODE ONDE ESTÁ LOCALIZADO O SEU HP NÃO ESTÁ LIBERADO PARA O VÍRTUA E/OU N | Tipo: INSTALAÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "304"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 304 = CLIENTE NAO PAGOU TAXA INSTALACAO: Quando o Técnico vai até a residência e o cliente não aceita pagar a taxa de instalação | Tipo: INSTALAÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "304"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 305 = RUA NAO CABEADA: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E DETECTA A IMPOSSIBILIDADE DE EXECUTAR O SERVIÇO, POIS A RUA ONDE A MESMA SE LOCALIZA NÃO ESTÁ CABEADA. | Tipo: INSTALAÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "305"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 306 = NAO RESIDE NO ENDERECO: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E DETECTA A IMPOSSIBILIDADE DE EXECUTAR O SERVIÇO, POIS O MESMO NÃO RESIDE NAQUELE ENDEREÇO. | Tipo: INSTALAÇÃO/MANUTENÇÃO/RETIRADA/SERVIÇOS",
+    "tags": [
+      "codigo_baixa",
+      "306"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 307 = RESIDENCIA EM CONSTRUCAO / REFORMA: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E DETECTA A IMPOSSIBILIDADE DE EXECUTAR O SERVIÇO, POIS A MESMA ESTÁ EM CONSTRUÇÃO OU REFORMA. | Tipo: INSTALAÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "307"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 308 = INSTALACAO NAO CONTEMPLARA PADRAO: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E DETECTA A IMPOSSIBILIDADE DE EXECUTAR O SERVIÇO, POIS IRÁ FERIR OS PADRÕES TÉCNICOS DETERMINADOS PELA EMPRESA. | Tipo: INSTALAÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "308"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 309 = COMPUTADOR NAO POSSUI CONFIGURACAO MINIMA: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E DETECTA A IMPOSSIBILIDADE DE EXECUTAR O SERVIÇO, POIS SEU COMPUTADOR NÃO ATENDE AOS PRÉ-REQUISITOS TÉCNICOS NECESSÁRIOS. | Tipo: INSTALAÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "309"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 311 = DEFEITO INTERMITENTE - NÃO RESOLVIDO: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E IDENTIFICA ATRAVÉS DO PROCESSO DE DIAGNÓSTICO  QUE  TRATA-SE DE UMA FALHA INTERMITENTE E A MESMA DEVERÁ SER MONITORADA. | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "311"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 312 = CLIENTE NÃO SOLICITOU O SERVICO: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E O MESMO AFIRMA NÃO TER SOLICITADO QUALQUER TIPO DE SERVIÇO. | Tipo: INSTALAÇÃO/MANUTENÇÃO/RETIRADA/SERVIÇOS",
+    "tags": [
+      "codigo_baixa",
+      "312"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 314 = MUDOU-SE: QUANDO TÉCNICO VAI AO LOCAL PARA RETIRAR O TERMINAL PORÉM IDENTIFICA QUE CLIENTE SE MUDOU DO ENDEREÇO | Tipo: RETIRADA",
+    "tags": [
+      "codigo_baixa",
+      "314"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 315 = RETIRADO LOJA CLARO: Quando o equipamento foi entregue em uma loja claro | Tipo: INSTALAÇÃO/SERVIÇOS",
+    "tags": [
+      "codigo_baixa",
+      "315"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 316 = RUA NAO CABEADA GPON: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E DETECTA QUE O ENDEREÇO NÃO POSSUI REDE GPON NO LOCAL PARA ATENDIMENTO. | Tipo: INSTALAÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "316"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 317 = INVIABILIDADE DE SINAL 3G / 4G INSUFICIENTE: Quando o Técnico vai até a residência do cliente e não há sinal 3G/4G para concluir a instalação | Tipo: INSTALAÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "317"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 318 = SEM VISADA: Quando o Técnico vai até a residência do cliente e não há visada para concluir a instalação | Tipo: INSTALAÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "318"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 319 = CLIENTE NÃO POSSUI COMPROVANTE DE ENDEREÇO: Quando o Técnico vai até a residência do cliente e não consegue concluir a instalação pois o cliente não possui o comprovante de endereço | Tipo: INSTALAÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "319"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 320 = CLIENTE RECUSA-SE A ENTREGAR COMPROVANTE DE ENDEREÇO: Quando o Técnico vai até a residência do cliente e não consegue concluir a instalação pois o cliente não deseja fornecer o comprovante de endereço | Tipo: INSTALAÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "320"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 321 = INSTALAÇÃO NÃO AUTORIZADA PELO SINDICO: Quando o Técnico vai até a residência do cliente e não consegue concluir a instalação devido ao impedimento do sindico/zelador. | Tipo: INSTALAÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "321"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 322 = EM NEGOCIAÇÃO COM SINDICO: Quando o Técnico vai até a residência do cliente e não consegue concluir a instalação devido haver uma negociação em aberto ainda com o sindico/zelador. | Tipo: INSTALAÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "322"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 323 = SUSPEITA DE SERVIÇO IRREGULAR: Quando há uma suspeita de irregularidade | Tipo: INSTALAÇÃO/MANUTENÇÃO/RETIRADA",
+    "tags": [
+      "codigo_baixa",
+      "323"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 324 = SEM SINAL 3G/4G NA REGIÃO: Quando o Técnico vai até a residência do cliente e está sem sinal disponível de 3G/4G na região | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "324"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 325 = CLIENTE SOLICITA REAGENDAMENTO DA VISITA: Quando o cliente entra em contato com a CRN solicitando o reagendamento de uma visita técnica, é uma razão de cancelamento. (Exclusivo da CRN) | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "325"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 328 = ENTREGA CONCLUIDA: QUANDO O MOTOBOY REALIZAR A ENTREGA DO EQUIPAMENTO AO CLIENTE EM UMA VENDA DE AUTO INSTALAÇÃO | Tipo: SERVIÇO",
+    "tags": [
+      "codigo_baixa",
+      "328"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 400 = INFORMACAO / CORRECAO CADASTRAL: QUANDO O COP NECESSITA CORRIGIR UM CONTRATO ATRAVÉS DA EXECUÇÃO DE UMA OS COM OU SEM O TÉCNICO IR A CAMPO. | Tipo: INSTALAÇÃO/MANUTENÇÃO/RETIRADA/SERVIÇOS",
+    "tags": [
+      "codigo_baixa",
+      "400"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 401 = CABO NAO IDENTIFICADO: QUANDO O TÉCNICO NÃO IDENTIFICA O CABO | Tipo: INSTALAÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "401"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 402 = DIVERGENCIA DE DADOS CADASTRAIS: QUANDO O TECNICO VAI A CASA DO CLIENTE E COMPROVANTE DE ENDEREÇO NÃO ESTA DE ACORDO COM O CADASTRADO EM CONTRATO | Tipo: INSTALAÇÃO/MANUTENÇÃO/RETIRADA/SERVIÇOS",
+    "tags": [
+      "codigo_baixa",
+      "402"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 404 = CLIENTE RECUSA-SE DEVOLVER O DECODER / CABLE MODEM: QUANO O TÉCNICO VAI ATÉ A RESIDENCIA DO CLIENTE E DETECTA A IMPOSSIBILIDADE DE EXECUTAR O SERVIÇO, POIS O CLIENTE SE RECUSA A DEVOLVER O EQUIOAMENTO DE PROPRIEDADE DA EMPRESA | Tipo: RETIRADA",
+    "tags": [
+      "codigo_baixa",
+      "404"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 408 = EQUIPAMENTO CLIENTE COM DEFEITO: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E DETECTA QUE O PROBLEMA ESTÁ NO EQUIPAMENTO OU NA REDE DE DADOS INSTALADA PELO CLIENTE. | Tipo: INSTALAÇÃO/MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "408"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 408 = SERVIÇO CONCLUÍDO SEM MOVIMENTAÇÃO DE TERMINAL: Quando o Técnico vai até a residência e conclui a instalação sem a necessidade de entregar novos equipamentos pois o antigos ainda está na residencia do cliente | Tipo: INSTALAÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "408"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 409 = SERVICO CONCLUIDO: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E EFETUA A INSTALAÇÃO DO SISTEMA OU DE UM EQUIPAMENTO | Tipo: INSTALAÇÃO/SERVIÇOS",
+    "tags": [
+      "codigo_baixa",
+      "409"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 410 = AUTO INSTALACAO CONCLUIDA: QUANDO HOUVER A ENTREGA DO DECODER E NÃO PRECISAR PASSAR CABEAMENTO, SENDO NECESSÁRIO APENAS A ATIVAÇÃO SISTÊMICA DO PONTO. | Tipo: INSTALAÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "410"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 412 = INSTALACAO / RETIRADA DE TRAP: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E SOLUCIONA O PROBLEMA INSTALANDO OU RETIRANDO UM TRAP | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "412"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 420 = ENTREGA LOJA CONCLUIDA: QUANDO A LOJA REALIZAR A ENTREGA DO EQUIPAMENTO BOX PARA O CLIENTE NO MOMENTO DA VENDA | Tipo: INSTALAÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "420"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 425 = TROCA DE TECNOLOGIA: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E TROCA À TECNOLOGIA DO EQUIPAMENTO UTILIZADO SEM ALTERAÇÃO DO SERVIÇO CONTRATADO. | Tipo: INSTALAÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "425"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 426 = TROCA DE PLACA DE REDE: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E SOLUCIONA TROCANDO A PLACA DE REDE | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "426"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 428 = DESCONEXAO EFETUADA COM RETIRADA DE EQUIPAMENTO: QUANDO O TÉCNICO AI ATÉ A RESIDENCIA DO CLIENTE E EFETUA A DESCONEXÃO E RETIRADA DOS EQUIPAMENTOS ASSOCIADOS AO CONTRATO | Tipo: RETIRADA",
+    "tags": [
+      "codigo_baixa",
+      "428"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 429 = DESCONEXAO EFETUADA SEM RETIRADA DE EQUIPAMENTO: QUANDO O TÉCNICO VAI ATÉ A RESIDENCIA DO CLIENTE E EFETUA A DESCONEXÃO DO SERVIÇO E NÃO RETIRA OS EQUIPAMENTOS ASSOCIADOS AO CONTRATO | Tipo: RETIRADA",
+    "tags": [
+      "codigo_baixa",
+      "429"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 430 = EQUIPAMENTO RETIRADO: QUANDO O TÉCNICO VAI ATÉ A RESIDENCIA DO CLIENTE E RETIRA OS TERMINAIS LIGADOS AO CONTRATO DO ASSINANTE | Tipo: RETIRADA",
+    "tags": [
+      "codigo_baixa",
+      "430"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 433 = MANUTENCAO AP REALIZADA: QUANDO O TÉCNICO VAI ATÉ A RESIDENCIA DO CLIENTE E REALIZA A MANUTENÇÃO | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "433"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 440 = EQUIPAMENTO ROUBADO / FURTADO / EXTRAVIADO: QUANDO É NECESSÁRIA A REPOSIÇÃO DO EQUIPAMENTO DO CLIENTE POR MOTIVO DE ROUBO/FURTO/ EXTRAVIO. | Tipo: INSTALAÇÃO/MANUTENÇÃO/RETIRADA/SERVIÇOS",
+    "tags": [
+      "codigo_baixa",
+      "440"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 441 = REDE DE DADOS WI-FI OU MISTA EXECUTADA COM SUCESSO: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E EFETUA A INSTALAÇÃO / CONFIGURAÇÃO DA REDE DE DADOS WI-FI OU MISTO ENTRE WI-FI E CABEAMENTO ESTRUTURADO (CABO FÍSICO). | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "441"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 442 = REDE DE DADOS FISICA EXECUTADA COM SUCESSO: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E EFETUA A INSTALAÇÃO / CONFIGURAÇÃO DA REDE DE DADOS UTILIZANDO CABEAMENTO ESTRUTURADO (CABO FÍSICO). | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "442"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 452 = STAND BY DO CABLE MODEM - EMTA: QUANDO O CLIENTE RECLAMOU DE NÃO NAVEGAÇÃO E A SOLUÇÃO DO TÉCNICO FOI A LIBERAÇÃO DO BOTÃO DE STAND BY DO CABLE MODEM / EMTA. | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "452"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 453 = CYBER ANJO CONFIGURACAO EFETUADA: QUANDO O TÉCNICO VAI ATÉ A RESIDENCIA DO CLIENTE E REALIZA A CONFIGURAÇÃO | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "453"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 467 = RESOLVIDO DURANTE A VISTORIA: QUANDO O TECNICO IDENTIFICA QUE A RECLAMAÇÃO DE DANOS É PROCEDENTE E CONSEGUE RESOLVE O DANO CAUSADO IMEDIATAMENTO | Tipo: VISTORIA/MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "467"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 469 = CASO INDEFINIDO: QUANDO O TECNICO IDENTIFICA QUE A RECLAMAÇÃO DE DANOS É PROCEDENTE PORÉM NÃO CONSEGUE RESOLVER IMEDIAMENTE E SOLICITADO AO CLIENTE O ORÇAMENTO/LAUDO | Tipo: VISTORIA/MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "469"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 470 = CASO IMPROCEDENTE: QUANDO O TECNICO IDENTIFICA QUE A RECLAMAÇÃO DE DANOS É IMPROCEDENTE | Tipo: VISTORIA/MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "470"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 471 = RECONFIGURACAO DO SSID - SENHA EXTENSOR: QUANDO NECESSARIO RECONFIGURAR SSID E SENHA DA REDE WIFI MESH. | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "471"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 472 = INSTRUCOES DE USO DO EQUIPAMENTO - EXTENSOR: QUANDO NECESSARIO INSTRUIR O CLIENTE SOBRE O USO DO EXTENSOR WIFI MESH. | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "472"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 473 = NECESSIDADE DE INSTALACAO VIA CABO ETHERNET: QUANDO NECESSÁRIO INSTALAR CABO ETHERNET PARA MAIOR ABRANGÊNCIA DO SINAL E EVITAR INTERFERÊNCIAS. | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "473"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 474 = REPOSICIONADO O EXTENSOR: QUANDO NECESSARIO AJUSTAR A POSIÇÃO DO EXTENSOR WIFI MESH NO INTERIOR DA RESIDENCIA. | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "474"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 475 = VELOCIDADE DO EXTENSOR CONFORME CONTRATADO: QUANDO O CLIENTE ALEGA QUE VELOCIDADE MEDIDA ESTÁ DIFERENTE DO CONTRATADO (PARA MENOS). | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "475"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 476 = RECONFIGURADO - PAREAMENTO EXTENSORES: QUANDO NECESSARIO RECONFIGURAR E/OU PAREAR NOVAMENTE O EXTENSOR WIFI MESH NO INTERIOR DA RESIDENCIA. | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "476"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 477 = INSTALACAO MESH CABEADA: QUANDO NECESSÁRIO REALIZAR A INSTALAÇÃO WIFI-MESH JUNTAMENTE COM CABEAMENTO DE REDE. | Tipo: INSTALAÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "477"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 478 = CONFIGURACAO CONCLUIDA: QUANDO O CLIENTE NÃO CONSEGUE REALIZAR A AUTO INSTALAÇÃO DO CLARO BOX E SOLICITA QUE UM TÉCNICO VÁ EM SUA RESIDENCIA PARA REALIZAR A CONFIGURAÇÃO | Tipo: INSTALAÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "478"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 479 = CLIENTE INFORMA JÁ TER DEVOLVIDO O EQUIPAMENTO: QUANDO O CLIENTE INFORMA NÃO TER MAIS EQUIPAMENTOS PARA ENTREGAR, POIS JÁ DEVOLVEU PARA OUTRO TÉCNICO, ENTREGOU EM LOJA, VIA CORREIO OU PONTOS KANGU. | Tipo: RETIRADA",
+    "tags": [
+      "codigo_baixa",
+      "479"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 480 = DIVERGENCIA POLITICA PRODUTO MESH: QUANDO O TÉCNICO SE DEPARAR COM O.S. EXCEDENTES A POLÍTICA DE PRODUTOS MESH, DEVERÁ REALIZAR A LIBERAÇÃO DAS O.S. EXCEDENTES COM ESSE CÓDIGO. | Tipo: INSTALAÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "480"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 481 = DEVOLUCAO DO BEM AO CLIENTE: Todas as vezes em que o COP identificar que a reclamação do cliente trata-se de furto, para que o líder vá a campo e avalie se será feita a devolução do bem ou a solicitação de ree | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "481"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 482 = SOLICITACAO DE REEMBOLSO: Todas as vezes em que o COP identificar que a reclamação do cliente trata-se de furto, para que o líder vá a campo e avalie se será feita a devolução do bem ou a solicitação de ree | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "482"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 483 = TROCA DE EXTENSOR MESH TRAVADO: Quando técnico identificar necessiade de troca do equipamento, devido ao problema do código. | Tipo: Instalação  (retorno de credenciada) Manutenção",
+    "tags": [
+      "codigo_baixa",
+      "483"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 484 = TROCA DE EXTENSOR MESH QUEIMADO: Quando técnico identificar necessidade de troca do equipamento, devido ao problema do código. | Tipo: Instalação  (retorno de credenciada) Manutenção",
+    "tags": [
+      "codigo_baixa",
+      "484"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 500 = READEQUAÇÃO DE SINAL - PASSIVOS: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E SOLUCIONA O PROBLEMA TROCANDO O PASSIVO DE VALOR INCORRETO POR OUTRO EQUALIZANDO O SINAL. O MESMO NÃO DEVE ESTAR COM DEFEITO. | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "500"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 501 = AMPLIFICADOR EQUALIZADO: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E SOLUCIONA O PROBLEMA COM A EQUALIZAÇÃO DO AMPLIFICADOR. | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "501"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 502 = AMPLIFICADOR COM DEFEITO - TROCA: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E SOLUCIONA O PROBLEMA TROCANDO O AMPLIFICADOR QUE ESTÁ APRESENTANDO DEFEITO RELACIONADO A SINAL. | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "502"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 503 = AMPLIFICADOR QUEIMADO - TROCA: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E SOLUCIONA O PROBLEMA TROCANDO O AMPLIFICADOR QUE ESTÁ QUEIMADO (NÃO LIGA) | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "503"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 504 = INSTALAÇÃO DE AMPLIFICADOR: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E SOLUCIONA O PROBLEMA INSTALANDO UM AMPLIFICADOR | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "504"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 505 = PASSIVO INTERNO QUEIM./DEGRAD. - TROCA: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E SOLUCIONA O PROBLEMA TROCANDO OS PASSIVOS INTERNOS COAXIAL QUE ESTEJA QUEIMADO/DEGRADADO. | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "505"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 506 = PASSIVO INTERNO FORA DO PADRÃO - TROCA: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E SOLUCIONA O PROBLEMA TROCANDO OS PASSIVOS INTERNOS COAXIAL NÃO HOMOLOGADOS. | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "506"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 507 = PASSIVO MDU QUEIM./DEGRAD. - TROCA: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E SOLUCIONA O PROBLEMA EFETUANDO A MANUTENÇÃO NO MDU E/OU PRUMADA TROCANDO O PASSIVO QUEIMADO/DEGRADADO | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "507"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 508 = PASSIVO MDU FORA DO PADRÃO - TROCA: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E SOLUCIONA O PROBLEMA EFETUANDO A MANUTENÇÃO NO MDU E/OU PRUMADA TROCANDO O PASSIVO NÃO HOMOLOGADO. | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "508"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 509 = CABLE ISOLATOR DANIFICADO/QUEIMADO - TROCA: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E SOLUCIONA O PROBLEMA TROCANDO O CABLE ISOLATOR DANIFICADO/QUEIMADO | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "509"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 510 = FONTE COM DEFEITO - TROCA: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E SOLUCIONA O PROBLEMA TROCANDO A FONTE/TRAFO QUE ESTÁ COM DEFEITO. | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "510"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 511 = CONTROLE REMOTO/DANIFICADO/EXTRAVIADO - TROCA: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E REALIZA A ENTREGA DE CONTROLE REMOTO QUE FOI EXTRAVIADO/ROUBADO OU DANIFICADO PELO CLIENTE. O MESMO GERA COBRANÇA DO CONTROLE. | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "511"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 512 = CONTROLE REMOTO COM DEFEITO - TROCA: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E SOLUCIONA O PROBLEMA TROCANDO O CONTROLE REMOTO QUE ESTA APRESENTANDO DEFEITO. | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "512"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 513 = INCOMPATIBILIDADE DA TECNOLOGIA / TV: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E HÁ QUALQUER TIPO DE INCOMPATIBILIDADE DO DECODER COM A TV DO CLIENTE. EX: FALHA AC3, FALTA DE ENTRADA COMPATÍVEL, ETC | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "513"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 514 = ENVIO DE HIT - HABILITAR CANAIS: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E SOLUCIONA O PROBLEMA SOMENTE COM O ENVIO DE UM HIT PARA HABILITAR CANAIS DO PACOTE. | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "514"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 515 = ENVIO DE HIT - CORREÇÃO DO UPDATE ID: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E SOLUCIONA O PROBLEMA SOMENTE COM O ENVIO DE UM HIT PARA CORRIGIR O UPDATE ID. | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "515"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 516 = T.T - TRAVADO: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E SOLUCIONA O PROBLEMA TROCANDO O TERMINAL QUE ESTAVA TRAVADO. | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "516"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 517 = T.T - QUEIMADO: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E SOLUCIONA O PROBLEMA TROCANDO O TERMINAL QUE ESTAVA QUEIMADO | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "517"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 518 = T.T - NÃO HABILITA / NÃO SINCRONIZA: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E SOLUCIONA O PROBLEMA TROCANDO O TERMINAL QUE NÃO HABILITA/SINCRONIZA | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "518"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 519 = T.T - NÃO GRAVA: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E SOLUCIONA O PROBLEMA TROCANDO O TERMINAL QUE NÃO EFETUA GRAVAÇÃO. | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "519"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 520 = T.T - NÃO ATUALIZA SW: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E SOLUCIONA O PROBLEMA TROCANDO O TERMINAL QUE NÃO ATUALIZADO O SOFTWARE PARA A ÚLTIMA VERSÃO. | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "520"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 521 = T.T - INTERMITENTE: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E SOLUCIONA O PROBLEMA TROCANDO O TERMINAL QUE NÃO APRESENTA INTERMITÊNCIA DE FUNCIONAMENTO. | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "521"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 522 = T.T - IN / OUT QUEIMADAS: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E SOLUCIONA O PROBLEMA TROCANDO O TERMINAL QUE ESTÁ COM ENTRADA E SAIDA QUEIMADA (EXEMPLO: PORTA ETHERNET QUEIMADA, PORTA DE TELEFO | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "522"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 523 = T.T - ALCANCE WIFI: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E SOLUCIONA O PROBLEMA TROCANDO O TERMINAL QUE APRESENTA PROBLEMAS COM O ALCANCE DO WIFI | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "523"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 524 = T.T - SOLIC. CLIENTE: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E SOLUCIONA O PROBLEMA TROCANDO O TERMINAL QUE NÃO APRESENTOU PROBLEMAS E FOI SOLICITADO PELO CLIENTE. O MESMO DEVE SER UTILIZADO E | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "524"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 525 = T.T - FALHA EM IMAGEM/QUADRICULANDO: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E SOLUCIONA O PROBLEMA TROCANDO O TERMINAL QUE APRESENTA PROBLEMA DE QUADRICULAR OU FALHAR A IMAGEM. | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "525"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 526 = T.T - ERRO DE LEITURA SMART: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E SOLUCIONA O PROBLEMA TROCANDO O TERMINAL QUE APRESENTA FALHA DE LEITURA DO SMART CARD | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "526"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 527 = T.T - NÃO NAVEGA: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E SOLUCIONA O PROBLEMA TROCANDO O TERMINAL QUE APÓS TESTES E VALIDAÇÃO NÃO NAVEGA | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "527"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 528 = T.T - PROBLEMA DE FALHA NO ÁUDIO: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E SOLUCIONA O PROBLEMA TROCANDO O TERMINAL QUE APRESENTA FALHA NA SAÍDA DE AUDIO | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "528"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 529 = T.T - MODELO NÃO COMPATÍVEL: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E SOLUCIONA O PROBLEMA TROCANDO O TERMINAL QUE ESTÁ COM A TECNOLOGIA INCORRETA, EXEMPLO: TROCAR O EQUIPAMENTO EMTA 2.0 PARA EMTA 3. | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "529"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 530 = T.T POR OUTRO COLOCADO NO MESMO SERVIÇO: UTILIZAR ESTE CÓDIGO NA SEGUNDA TROCA - OS ABERTA PARA TROCA DE TERMINAL  QUANDO O PRIMEIRO EQUIPAMENTO TROCADO NÃO FUNCIONOU NO ATO DA MESMA VISITA. | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "530"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 531 = SMART QUE NÃO HABILITA - TROCA: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E SOLUCIONA O PROBLEMA TROCANDO O SMART CARD QUE NÃO HABILITAVA | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "531"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 532 = SMART COM TELA PRETA - TROCA: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E SOLUCIONA O PROBLEMA TROCANDO O SMART CARD QUE APRESENTAVA TELA PRETA. | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "532"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 533 = RESET NA CONFIG TERMINAL - TRAVADO: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E RESOLVE O PROBLEMA RECONFIGURANDO A CAIXA DIGITAL QUE ESTAVA TRAVADA. | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "533"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 534 = RESET NA CONFIG TERMINAL - SOLICIT SENHA: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E RESOLVE O PROBLEMA RECONFIGURANDO A CAIXA DIGITAL QUE ESTAVA SOLICITANDO SENHA. | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "534"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 535 = RESET NA CONFIG TERMINAL - NÃO ATUALIZA: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E RESOLVE O PROBLEMA RECONFIGURANDO A CAIXA DIGITAL QUE NÃO ESTAVA ATUALIZANDO. | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "535"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 536 = RECONFIGURADO ROTEADOR DO CLIENTE: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E EFETUA A INSTALAÇÃO/CONFIGURAÇÃO DA REDE DE DADOS DO CLIENTE (ROTEADOR DE PROPRIEDADE DO CLIENTE) | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "536"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 537 = RECONFIGURADO EMTA/ROTEADOR NET-WIFI: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E EFETUA A INSTALAÇÃO/CONFIGURAÇÃO DO EMTA WIFI OU ROTEADOR DE PROPRIEDADE NET. | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "537"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 538 = RECONFIGURAÇÃO DO FORMATO DA IMAGEM: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E RESOLVE O PROBLEMA REALIZANDO A ALTERAÇÃO NO FORMATO DE IMAGEM NO EQUIPAMENTO DO CLIENTE. (16:9 X 4:3, 1080I X 720P, ETC) | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "538"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 539 = RECONFIGURAÇÃO DE AUDIO: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E RESOLVE O PROBLEMA REALIZANDO A ALTERAÇÃO NO FORMATO DE AUDIO NO EQUIPAMENTO DO CLIENTE. | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "539"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 540 = CONECTOR INTERNO OXIDADO - TROCA: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E SOLUCIONA O PROBLEMA SUBSTITUINDO OS CONECTORES INTERNOS OXIDADOS. | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "540"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 541 = CONECTOR INTERNO MAL FEITO - TROCA: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E SOLUCIONA O PROBLEMA SUBSTITUINDO OS CONECTORES INTERNOS MAL CONFECCIONADOS (MALHA EXPOSTA, ETC). | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "541"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 542 = CONECTOR INTERNO FORA DO PADRÃO - TROCA: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E SOLUCIONA O PROBLEMA SUBSTITUINDO OS CONECTORES INTERNOS FORA DO PADRÃO (CONECTORES DE ANTENA, ETC). | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "542"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 543 = CONECTOR TAP OXIDADO  - TROCA: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E SOLUCIONA O PROBLEMA SUBSTITUINDO O CONECTOR DA REDE EXTERNA(TAP) OXIDADA. | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "543"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 544 = CONECTOR TAP MAL FEITO - TROCA: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E SOLUCIONA O PROBLEMA SUBSTITUINDO O CONECTOR DA REDE EXTERNA(TAP) MAL CONFECCIONADA. | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "544"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 545 = CONECTOR TAP - FORA DO PADRÃO - TROCA: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E SOLUCIONA O PROBLEMA SUBSTITUINDO O CONECTOR DA REDE EXTERNA(TAP) FORA DO PADRÃO (CONECTOR ANTENA, ETC). | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "545"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 546 = CONECTOR MDU OXIDADO - TROCA: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E SOLUCIONA O PROBLEMA SUBSTITUINDO O CONECTOR DO MDU OXIDADO. | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "546"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 547 = CONECTOR MDU MAL FEITO - TROCA: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E SOLUCIONA O PROBLEMA SUBSTITUINDO O CONECTOR DO MDU MAL CONFECCIONADO. | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "547"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 548 = CONECTOR MDU FORA DO PADRÃO - TROCA: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E SOLUCIONA O PROBLEMA SUBSTITUINDO O CONECTOR DO MDU FORA DO PADRÃO (CONECTOR ANTENA, ETC). | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "548"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 549 = VELOCIDADE DO VIRTUA CONFORME CONTRATADA: QUANDO O CLIENTE RECLAMOU DE LENTIDÃO E A SOLUÇÃO DO PROBLEMA FOI MOSTRAR PARA O CLIENTE QUE DENTRO DA REDE VIRTUA A NAVEGAÇÃO ESTÁ CONFORME VELOCIDADE CONTRATADA OU QUE A VELOCIDA | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "549"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 550 = CANAL NÃO PERTECE AO PACOTE CONTRATADO: QUANDO A SOLUÇÃO DO PROBLEMA FOI A EXPLICAÇÃO AO CLIENTE QUE O CANAL QUE ELE RECLAMOU TER PERDIDO REALMENTE NÃO PERTENCE AO SEU PACOTE CONTRATADO. | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "550"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 551 = SINTONIA EFETUADA - AV/HDMI: QUANDO A SOLUÇÃO DO PROBLEMA DO CLIENTE FOI A EXECUÇÃO DE SINTONIA NA TV PARA COLOCAR A TV NO CANAL 3-4 / AV / HDMI | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "551"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 552 = INSTRUÇÕES DO USO DA INTERATIVIDADE: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E RESOLVE O PROBLEMA REALIZANDO A INSTRUÇÃO DE FUNCIONAMENTO DA INTERATIVIDADE. (NOW, MÚSICAS, ETC). | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "552"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 553 = INSTRUÇÕES DE USO DO CONTROLE REMOTO: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E RESOLVE O PROBLEMA INFORMANDO DA UTILIZAÇÃO DO CONTROLE REMOTO, SEM NECESSIDADE DE TROCA. | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "553"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 554 = INSTRUÇÕES SOBRE SMART CARD: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E RESOLVE O PROBLEMA REALIZANDO A INSTRUÇÃO SOBRE O SMART CARD, SEM A NECESSIDADE DE TROCA. | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "554"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 555 = SEM DEFEITO NO PRODUTO VIRTUA RECLAMADO: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E DETECTA QUE O PROBLEMA DO VIRTUA RECLAMADO ESTÁ RESOLVIDO SEM NENHUMA INTERVENÇÃO. O MESMO DEVE SER UTILIZADO APENAS PARA PROBLEM | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "555"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 556 = SEM DEFEITO NO PRODUTO TV RECLAMADO: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E DETECTA QUE O PROBLEMA DE TV RECLAMADO ESTÁ RESOLVIDO SEM NENHUMA INTERVENÇÃO. O MESMO DEVE SER UTILIZADO APENAS PARA PROBLEMA DE | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "556"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 557 = SEM DEFEITO NO PRODUTO NETFONE RECLAMADO: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E DETECTA QUE O PROBLEMA DO NETFONE RECLAMADO ESTÁ RESOLVIDO SEM NENHUMA INTERVENÇÃO. O MESMO DEVE SER UTILIZADO APENAS PARA PROBLE | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "557"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 558 = BOOT NO TERMINAL: QUANDO A SOLUÇÃO DO PROBLEMA FOI SOMENTE REALIZAR UM BOOT (DESLIGAR DA ENERGIA E LIGAR NOVAMENTE). O MESMO NÃO DEVE SER UTILIZADO PARA RESET NOS TERMINAIS. | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "558"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 559 = RECONFIGURADO COMPUTADOR: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E SOLUCIONA O PROBLEMA RECONFIGURANDO O COMPUTADOR (EXEMPLO: NAVEGAÇÃO EM MODO DE SEGURANÇA/CONEXÃO NO WIFI, ETC). | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "559"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 560 = EQUIPAMENTO / REDE DE DADOS CLIENTE COM DEFEITO: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E DETECTA QUE O PROBLEMA ESTÁ NO EQUIPAMENTO OU NA REDE DE DADOS INSTALADA PELO CLIENTE. | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "560"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 561 = PONTO SEM CADASTRO NÃO REGULARIZADO: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E DETECTA A IMPOSSIBILIDADE DE EXECUTAR O SERVIÇO, POIS EXISTE(M) PONTO(S) QUE NÃO POSSUI (EM) CADASTRO NO SISTEMA DA NET E NÃO QUE | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "561"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 562 = CABO RECONECTADO/IDENTIFICADO: QUANDO O CLIENTE É DESCONECTADO INDEVIDAMENTE, E O  TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE EFETUAR A RECONEXÃO OU IDENTIFICAÇÃO DOS CABOS NO DG OU TAP. | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "562"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 563 = RECONEXÃO DOS CABOS NO EQUIPAMENTO DO CLIENTE: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E SOLUCIONA O PROBLEMA REALIZANDO A RECONEXÃO DE CABOS ENTRE O TERMINAL NET E O EQUIPAMENTO DO CLIENTE, CABO SOLTO. O MESMO NÃO DEV | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "563"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 564 = CABOS ESPECIAIS COM DEFEITO - TROCA: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E REALIZA A TROCA DOS CABOS ESPECIAIS (ENTRE O TERMINAL NET E O EQUIPAMENTO DO CLIENTE) COM DEFEITO. (HDMI, AV, S-VIDEO, ETC) | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "564"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 565 = ENTREGA DE CABOS ESPECIAIS: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E REALIZA A ENTREGA DE CABO( S-VIDEO, ÓPTICO , HDMI, ETC) | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "565"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 566 = REFEITO DROP: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E SOLUCIONA O PROBLEMA REFAZENDO O DROP DE ENTRADA. | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "566"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 567 = REFEITO CABEAMENTO COAXIAL: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E SOLUCIONA O PROBLEMA REFAZENDO O CABEAMENTO COAXIAL INTERNO OU EXTERNO. | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "567"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 568 = CABEAMENTO TELEFÔNICO REFEITO: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E SOLUCIONA O PROBLEMA REFAZENDO O CABEAMENTO TELEFÔNICO INTERNO. | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "568"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 569 = NECESSÁRIO REFAZER CABEAMENTO TELEFÔNICO: QUANDO O TÉCNICO ENTENDE QUE PARA A SOLUÇÃO DO PROBLEMA TÉCNICO DEVERÁ SER ENVIADA UMA EQUIPE PARA REFAZER O CABEAMENTO DE TELEFONE ATUAL DA CASA DO CLIENTE. | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "569"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 570 = NECESSÁRIO REFAZER CABEAMENTO COAXIAL: QUANDO O TÉCNICO ENTENDE QUE PARA A SOLUÇÃO DO PROBLEMA TÉCNICO DEVERÁ SER ENVIADA UMA EQUIPE PARA REFAZER O CABEAMENTO COAXIAL ATUAL DA CASA DO CLIENTE. | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "570"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 571 = ENCAMINHADO À EMBRATEL: QUANDO PROBLEMAS IDENTIFICADOS NA EMBRATEL IMPEDEM A CONCLUSÃO DOS SERVIÇOS EM CAMPO. | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "571"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 572 = PROBLEMA IDENTIFICADO NO CIRCUITO DE VIDEO: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E DETECTA QUE O PROBLEMA ESTÁ NO CIRCUITO INTERNO DE VIDEO (CÂMERA DE SEGURANÇA). | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "572"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 573 = DATA CENTER / HEADEND COM PROBLEMA: QUANDO PROBLEMAS NO DATACENTER OU NO HEADEND IMPEDEM A EXECUÇÃO DOS SERVIÇOS EM CAMPO. | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "573"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 574 = CORREÇÃO EFETUADA NO DATA CENTER: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E SOLUCIONA O PROBLEMA REALIZANDO CORREÇÕES DE SISTEMAS ATRAVÉS DE CONTATO COM O DATA CENTER. | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "574"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 575 = TOMADA TELEFONE COM PROBLEMA - TROCA: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E SOLUCIONA O PROBLEMA TROCANDO A TOMADA DE TELEFONE. | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "575"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 576 = DISTRIBUIDOR T COM PROBLEMA - TROCA: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E SOLUCIONA O PROBLEMA TROCANDO OS PASSIVOS DE TELEFONE (DIVISOR T, ETC). | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "576"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 577 = CONECTOR RJ11 OXIDADO - TROCA: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E SOLUCIONA O PROBLEMA REFAZENDO O CONECTOR RJ11 QUE ESTÁ OXIDADO. | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "577"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 578 = CONECTOR RJ11 MAL FEITO - TROCA: QUANDO O TÉCNICO VAI ATÉ A RESIDÊNCIA DO CLIENTE E SOLUCIONA O PROBLEMA REFAZENDO O CONECTOR RJ11 QUE FOI MAL CONFECCIONADO. | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "578"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 579 = LIMPEZA DE RUÍDO EXECUTADA: QUANDO O TÉCNICO REALIZA A LIMPEZA DE RUÍDO NA RESIDÊNCIA/CONDOMÍNIO | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "579"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 580 = CONECTOR RJ45 OXIDADO/MAL FEITO - TROCA: QUANDO A SOLUÇÃO DO PROBLEMA SUBSTITUIR OS CONECTORES DA REDE DE DADOS DO CLIENTE. | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "580"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 581 = CABEAMENTO RJ45 REFEITO: QUANDO A SOLUÇÃO DO PROBLEMA FOI A TROCA DO CABEAMENTO DE DADOS DO CLIENTE. | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "581"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 582 = ROTEADOR COM PROBLEMA: QUANDO O ROTEADOR ESTÁ APRESENTANDO PROBLEMA E NECESSITA SER TROCADO (EXTENSÃO WIFI) OU SINALIZADO AO CLIENTE QUANDO O ROTEADOR FOR DELE. | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "582"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 583 = NECESSARIO REFAZER CABEAMENTO OPTICO: QUANDO O TÉCNICO ENTENDE QUE PARA A SOLUÇÃO DO PROBLEMA TÉCNICO DEVERÁ SER ENVIADA UMA EQUIPE PARA REFAZER O CABEAMENTO OPTICO ATUAL DA CASA DO CLIENTE. | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "583"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 584 = CONECTOR OPTICO INTERNO DANIFICADO: Troca Quando Técnico identifica que o conetor óptico na ONT está danificado e é necessário efetuar troca para resolver o problema no cliente. | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "584"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 585 = TROCA DE PAINEL: Quando é realizado a troca do painel na residencia do cliente | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "585"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 586 = TROCA DE SENSOR: Quando é realizado a troca do sensor na residencia do cliente | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "586"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 587 = TROCA DE CAMERA: Quando é realizado a troca do camera na residencia do cliente | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "587"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 588 = CONECTOR OPTICO MDU/DIO DANIFICADO: Troca Quando Técnico identifica que o conetor óptico no MDU/DIO está danificado e é necessário efetuar troca para resolver o problema no cliente. | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "588"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 589 = CONECTOR OPTICO REDE EXTERNA NAP DANIFICADO: Troca Quando Técnico identifica que o conetor óptico no Cabo Drop na rede externa está danificado e é necessário efetuar troca para resolver o problema no cliente. | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "589"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 590 = PTO COM DEFEITO TROCA: Quando é realizado a troca do equipamento devido defeito | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "590"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 591 = PATCH CORD COM DEFEITO TROCA: Quando é realizado a troca do equipamento | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "591"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 592 = VISITA TECNICA UHU PROCEDE: QUANDO A VISITA É REALIZADA | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "592"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 593 = VISITA TECNICA UHU NAO PROCEDE: QUANDO A VISITA NÃO É REALIZADA | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "593"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 594 = RECONFIGURACAO DA SENHA DE WIFI: DEVERÁ SER UTILIZADO PELO TÉCNICO QUANDO IDENTIFICAR QUE O PROBLEMA DE NEGAÇÃO FOI RESOLVIDO APÓS A RECONFIGURAÇÃO DA SENHA WIFI. UMA VEZ QUE ESSE CÓDIGO FOI UTILIZADO, SERA COBRAD | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "594"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 595 = EQPTO CLIENTE NAO POSSUI TECN PARA PROD CONTRATADO: Quando a tecnologia do equipamento do cliente não é compativel com o produto contratado | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "595"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 597 = TROCA DE PILHA: SEMPRE QUE O TÉCNICO IDENTIFICAR A NECESSIDADE DE TROCAR DAS PILHAS PARA QUE O CONTROLE REMOTO FUNCIONE | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "597"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 598 = SERVIÇO CONCLUIDO PARA CONTRUCAO DE MDU: DEVERÁ SER UTILIZADO PELO TÉCNICO QUANDO IDENTIFICAR QUE É PRECISO CONTRUIR UM MDU NA LOCALIDADE | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "598"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 599 = REFAZER DROP BSOD: QUANDO O TÉCNICO ENTENDE QUE PARA A SOLUÇÃO DO PROBLEMA TÉCNICO DEVERÁ SER ENVIADA UMA EQUIPE PARA REFAZER O CABEAMENTO BSOD COM DISTÂNCIA SUPERIOR A 70 METROS. | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "599"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 600 = CANCELADO POR ATIVO-INSTRUÇÕES AO CLIENTE: QUANDO, VIA LIGAÇÃO PARA O CLIENTE A ORDEM DE SERVIÇO É CANCELADA DECORRENTE A EXPLICAÇÃO SOBRE AS FUNCIONALIDADES DO EQUIPAMENTO ( EQUALIZAÇÃO DO SOM, PARENTAL CONTROL, CLOSED CAP | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "600"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 601 = CANCELADO POR ATIVO-ENVIO DE HIT: QUANDO, VIA LIGAÇÃO PARA O CLIENTE A ORDEM DE SERVIÇO É CANCELADA POR UM HIT ENVIADO AO EQUIPAMENTO DO CLIENTE. | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "601"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 602 = CANCELADO POR ATIVO-SINAL NORMALIZOU: QUANDO, VIA LIGAÇÃO PARA O CLIENTE A ORDEM DE SERVIÇO É CANCELADA POR QUE O SERVIÇO DO CLIENTE JÁ NORMALIZOU. | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "602"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 603 = CANCELADO POR ATIVO-REDE EXTERNA COM PROBLEMA: QUANDO, VIA LIGAÇÃO PARA O CLIENTE A ORDEM DE SERVIÇO É CANCELADA POR QUE VERIFICA SE QUE O PROBLEMA É PROVENIENTE DA ESTRUTURA DE REDE EXTERNA E NADA ADIANTARIA UMA VISITA AO CLIE | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "603"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 604 = CANCELADO POR ATIVO-CLIENTE NÃO ESTARÁ DISPONÍVEL: QUANDO, VIA LIGAÇÃO PARA O CLIENTE A ORDEM DE SERVIÇO É CANCELADA POR QUE O CLIENTE NÃO PODERÁ ATENDER A EQUIPE TÉCNICA NO MOMENTO AGENDADO INICIALMENTE. | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "604"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 605 = CANCELADO POR ATIVO / TIPO DE OS INCORRETA: QUANDO, VIA LIGAÇÃO PARA O CLIENTE A ORDEM DE SERVIÇO É CANCELADA POIS É CONSTATADO QUE O OPERADOR UTILIZOU O TIPO DE OS INCORRETA AO DO SERVIÇO SOLICITADO. | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "605"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 606 = CANCELADO POR ATIVO / SINTONIA EFETUADA: QUANDO, VIA LIGAÇÃO PARA O CLIENTE A ORDEM DE SERVIÇO É CANCELADA POR SINTONIA NA TV OU COLOCAR A TV NO CANAL 3-4 / AV. | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "606"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 607 = CANC POR ATIVO/CANAL NAO PERTENCE PACOTE CONTRATO: QUANDO, VIA LIGAÇÃO PARA O CLIENTE A ORDEM DE SERVIÇO É CANCELADA POR QUE O CANAL QUE ELE RECLAMOU TER PERDIDO REALMENTE NÃO PERTENCE AO SEU PACOTE CONTRATADO. MUITO COMUM COMO CON | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "607"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 608 = CANCELADO POR ATIVO / BOOT DECODER, MODEM OU EMTA: QUANDO, VIA LIGAÇÃO PARA O CLIENTE A ORDEM DE SERVIÇO É CANCELADA POR UM BOOT NO EMTA-CABLE MODEM. | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "608"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 608 = CANCELADA POR ATIVO/ROTEADOR: Código de Cancelamento da OS | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "608"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 609 = CANC POR ATIVO/VELOC DO VIRTUA CONFORME CONTRATADA: QUANDO, VIA LIGAÇÃO PARA O CLIENTE À ORDEM DE SERVIÇO É CANCELADA POR QUE FOI CONSTATADO QUE A VELOCIDADE DO VÍRTUA ESTÁ CONFORME A CONTRATADA DENTRO DA REDE DA NET OU QUE A VELOCI | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "609"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 610 = CANC. POR ATIVO/STAND BY DO CABLE MODEM - EMTA: QUANDO, VIA LIGAÇÃO PARA O CLIENTE A ORDEM DE SERVIÇO É CANCELADA POR DESABILITAR O BOTÃO DE STAND BY DO CABLE MODEM / EMTA | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "610"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 611 = CANCELADO POR ATIVO / UPGRADE DATA CENTER: QUANDO, VIA LIGAÇÃO PARA O CLIENTE A ORDEM DE SERVIÇO É CANCELADA POIS O PROBLEMA FOI SOLUCIONADO  PELO COP EXECUTANDO ATUALIZAÇÃO DO SOFTWARE DO CABLE OU EMTA ATRAVÉS DA PÁGINA DO | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "611"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 612 = CANCELADO POR ATIVO / RECONEXAO DOS CABOS: QUANDO, VIA LIGAÇÃO PARA O CLIENTE A ORDEM DE SERVIÇO É CANCELADA POIS O PROBLEMA REALIZANDO A RECONEXÃO DE CABO ENTRE O TERMINAL NET E O EQUIPAMENTO DO MESMO. | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "612"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 613 = CANCELADO POR ATIVO / DESISTENCIA DA ASS OU SERV: QUANDO, VIA LIGAÇÃO PARA O CLIENTE A ORDEM DE SERVIÇO É CANCELADA POIS  O MESMO DESISTE DO PEDIDO DA ASSINATURA OU SERVIÇO EM RESIDÊNCIA. ESTE CÓDIGO TAMBÉM DEVE SER UTILIZADO PARA | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "613"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 614 = CANCELADO POR ATIVO / COMPUTADOR RECONFIGURADO: QUANDO, VIA LIGAÇÃO PARA O CLIENTE A ORDEM DE SERVIÇO É CANCELADA POIS O PROBLEMA FOI SOLUCIONADO ATRAVÉS DA RECONFIGURAÇÃO DO COMPUTADOR(EXEMPLO: DESATIVAÇÃO DE ANTIVÍRUS/FIREWAL) | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "614"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 615 = CANCELADO POR ATIVO /CLIENTE NÃO SOLICITOU SERVIÇO: QUANDO, VIA LIGAÇÃO PARA O CLIENTE A ORDEM DE SERVIÇO É CANCELADA POIS O MESMO AFIRMA NÃO TER SOLICITADO QUALQUER TIPO DE SERVIÇO. | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "615"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 616 = CANCELADO POR ATIVO / EQUIPAMENTO DO CLIENTE COM DEFEITO: CANCELADO COM O CLIENTE APÓS DETECTAR QUE O PROBLEMA ESTÁ NO EQUIPAMENTO DO CLIENTE | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "616"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 617 = CANCELADO POR ATIVO / RECONFIGURADO SEGURANÇA DE REDE: CANCELADO COM O CLIENTE APÓS EFETUAR A CONFIGURAÇÃO DA SENHA DA REDE DE DADOS WI-FI OU MISTO ENTRE WI-FI E CABEAMENTO ESTRUTURADO (CABO FÍSICO). (VALE PARA ROTEADOR WI-FI NET) | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "617"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 618 = CANC POR ATIVO / INSTRUÇÕES INTERATIVIDADE: QUANDO, VIA LIGAÇÃO PARA O CLIENTE À ORDEM DE SERVIÇO É CANCELADA POIS O PROBLEMA FOI SOLUCIONADO ATRAVÉS DA LIGAÇÃO | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "618"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 619 = CANCELADO POR ATIVO / INSTRUÇÕES NOW: QUANDO, VIA LIGAÇÃO PARA O CLIENTE À ORDEM DE SERVIÇO É CANCELADA POIS O PROBLEMA FOI SOLUCIONADO ATRAVÉS DA LIGAÇÃO | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "619"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 620 = CANC POR ATIVO /INSTRUÇÕES FRANQUIA EXCEDIDA: QUANDO, VIA LIGAÇÃO PARA O CLIENTE À ORDEM DE SERVIÇO É CANCELADA POIS O PROBLEMA FOI SOLUCIONADO ATRAVÉS DA INSTRUÇÃO SOBRE A FRANQUIA DO PRODUTO | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "620"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 621 = CANCELADO POR ATIVO / INSTRUÇÕES SMART CARD: QUANDO, VIA LIGAÇÃO PARA O CLIENTE À ORDEM DE SERVIÇO É CANCELADA POIS O PROBLEMA FOI SOLUCIONADO ATRAVÉS DA LIGAÇÃO INSTRUINDO O CLIENTE SOBRE O SMART CARD | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "621"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 622 = 622 - CANC POR ATIVO / INSTRUÇÕES CONTROLE REMOTO: QUANDO, VIA LIGAÇÃOO PARA O CLIENTE À ORDEM DE SERVIÇO É CANCELADA POIS O PROBLEMA FOI SOLUCIONADO ATRAVÉS DA LIGAÇÃO O CLIENTE FOI INSTRUIDO SOBRE O USO DO CONTROLE REMOTO | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "622"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 623 = 623 - CANCELADO POR CONF DO EQUIPAMENTO CLIENTE: QUANDO, VIA LIGAÇÃO PARA O CLIENTE À ORDEM DE SERVIÇO É CANCELADA POIS O PROBLEMA FOI SOLUCIONADO ATRAVÉS DA LIGAÇÃO O CLIENTE FOI INSTRUIDO DOBRE A FUNCIONALIDADO DO EQUIPAMENTO | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "623"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 625 = 625 - CANC POR ATIVO / CONFIG DE FORMATO DE IMAGEM: QUANDO, VIA LIGAÇÃO PARA O CLIENTE À ORDEM DE SERVIÇO É CANCELADA POIS O PROBLEMA FOI SOLUCIONADO ATRAVÉS DA LIGAÇÃO COM A INSTRUÇÃO DE CONFIGURAÇÃO DO FORMATO DA IMAGEM | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "625"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 626 = 626 - CANC POR ATIVO / CONFIGURAÇÃO DO DECODER: QUANDO, VIA LIGAÇÃO PARA O CLIENTE À ORDEM DE SERVIÇO É CANCELADA POIS O PROBLEMA FOI SOLUCIONADO ATRAVÉS DA LIGAÇÃO COM A INSTRUÇÃO DE CONFIGURAÇÃO DO DECODER | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "626"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 628 = 628 - CANCELADO POR ATIVO / CONFIGURAÇÃO DE ÁUDIO: QUANDO, VIA LIGAÇÃO PARA O CLIENTE À ORDEM DE SERVIÇO É CANCELADA POIS O PROBLEMA FOI SOLUCIONADO ATRAVÉS DA ORIENTAÇÃO DE CONFIGURAÇÃO DO ÁUDIO | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "628"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 629 = 629 - CANCELADO POR ATIVO / ROTEADOR COM PROBLEMA: QUANDO, VIA LIGAÇÃO PARA O CLIENTE À ORDEM DE SERVIÇO É CANCELADA POIS FOI CONSTATADO QUE O PROBLEMA É NO ROTEADOR | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "629"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 631 = 631 - CANCELADO POR ATIVO / CORREÇÃO DE CADASTRO: QUANDO, VIA LIGAÇÃO PARA O CLIENTE À ORDEM DE SERVIÇO É CANCELADA POIS O PROBLEMA ESTA EM UMA NECESSIDADE DE CORREÇÃO DO CONTRATO | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "631"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 632 = 632 - CANCELADO POR ATIVO / OS DUPLICADA: QUANDO, VIA LIGAÇÃO PARA O CLIENTE À ORDEM DE SERVIÇO É CANCELADA POIS A OS ESTA DUPLICADA | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "632"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 632 = CANCELADA POR ATIVO/CORREÇÃO DE CADASTRO: Código de Cancelamento da OSCódigo de Cancelamento da OS | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "632"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 633 = 633 - CANC POR ATIVO / ABERTO CHAMADO PARA OS / OC: QUANDO, VIA LIGAÇÃO PARA O CLIENTE À ORDEM DE SERVIÇO É CANCELADA POIS O PROBLEMA ESTA NO PROCESSAMENTO DE COMANDOS | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "633"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 634 = 634 - CANCELADO POR ATIVO IDENT. PROBLEMA MASSIVO: QUANDO, VIA LIGAÇÃO PARA O CLIENTE À ORDEM DE SERVIÇO É CANCELADA POIS O PROBLEMA DO CLIENTE É UM PROBLEMA MASSIVO | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "634"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 635 = 635 - CANC POR ATIVO /ERRO DE PORTA FONE HABILIT.: QUANDO, VIA LIGAÇÃO PARA O CLIENTE À ORDEM DE SERVIÇO É CANCELADA POIS FOI CONSTATADO PROBLEMA COM A A PORTO PARA HABILITAÇÃO DO NET FONE | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "635"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 635 = CANCELADA POR ATIVO/ ERRO DE PORTABILIDADE FONE HABILIT: Código de Cancelamento da OS | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "635"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 636 = 636 - CANCELADO POR ATIVO ABERTO ST FONE: QUANDO, VIA LIGAÇÃO PARA O CLIENTE À ORDEM DE SERVIÇO É CANCELADA FOI DIRECIONADO EQUIPE NOC REALIZAR O TRATAMENTO | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "636"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 636 = CANCELADA POR ATIVO/ NÃO RESIDE NO ENDEREÇO: Código de Cancelamento da OS | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "636"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 638 = CANCELADO POR ATIVO/ VT AGENDADA C/ OUTAGE ABERTO: CANCELADO COM O CLIENTE QUANDO CONSTATADO QUE JÁ EXISTIA UM OUTAGE ABERTO E O CLIENTE NÃO FOI DEVIDAMENTE INFORMADO ANTES DA GERAÇÃO DO ATENDIMENTO | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "638"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 638 = CANCELADA POR ATIVO/VT AGENDADA COM PROBLEMA MASSIVO: Código de Cancelamento da OS | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "638"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 705 = ENTREGA CHIP SEM SUCESSO: QUANDO O PARCEIRO NÃO REALIZA A ENTREGA E A ORDEM É CANCELADA OU O CLIENTE NÃO ESTAVA NO LOCAL | Tipo: RETIRADA",
+    "tags": [
+      "codigo_baixa",
+      "705"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 706 = ENTREGA CHIP COM SUCESSO: QUANDO O PARCEIRO EFETUA ENTREGA DO CHIP E RECEBEDOR ASSINA PROTOCOLO DE ENTREGA, (ENTREGA VIA MOTOBOY) | Tipo: RETIRADA",
+    "tags": [
+      "codigo_baixa",
+      "706"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 710 = TROCA DE ANTENA DANIFICADA/FURTO/EXTRAVIO: Quando é realizado troca da antena devido defeito, roupo ou extravio | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "710"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 711 = REAPONTAMENTO DE ANTENA UHF: Quando é realizado o reapontamento de antena | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "711"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 712 = REAPONTAMENTO DE ANTENA KU OBST. DE SINAL: Quando é realizado o reapontamento de antena | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "712"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 713 = TROCA DE LNB DANIFICADO/QUEIMADO: Quando é realizado a troca do lnb devido defeito | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "713"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 714 = PROBLEMA DE UHF-MDU: Quando é constatado problema de UHF-MDU | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "714"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 715 = CORREÇÃO CEP PARA HABILITAÇÃO DO CANAL GLOBO: Quando há necessidade de correção no CEP para habilitação do canal GLOBO | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "715"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 716 = CEP SEM CANAL GLOBO DISPONIVEL: Quando o CEP não possui canal globo disponivel | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "716"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 717 = REAPONTAMENTO DE ANTENA KU DESALINHADA: Quando é realizado o reapontamento de antena | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "717"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 721 = TROCA DE PAR ANTENA/LNB (SERIALIZADO): Quando é realizado a troca da antena/lnb | Tipo: MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "721"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 800 = TRATAMENTO DE BACK LOG AUTOMATICO: QUANDO HÁ PROBLEMA NO NETSMS QUE FAÇA O CLIENTE FICAR SEM AGENDAMENTO | Tipo: INSTALAÇÃO/MANUTENÇÃO/RETIRADA/SERVIÇOS",
+    "tags": [
+      "codigo_baixa",
+      "800"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 850 = BKO-ALTERAÇÃO APÓS BLOQUEIO: QUANDO TEM A ABERTURA DA OCORRÊNCIA CO1-CP DURANTE A JANELA DE ATENDIMENTO, OU QUANDO HÁ PEDIDO DE REAGENDAMENTO. | Tipo: INSTALAÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "850"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 851 = CRN-ALTERAÇÃO APÓS BLOQUEIO: QUANDO O CLIENTE ACIONA O ATENDIMENTO E SOLICITA ALTERAÇÃO DE AGENDA POR MOTIVO DE INDISPONIBILIDADE PARA ATENDIMENTO AO TÉCNICO NO AGENDAMENTO COMBINADO | Tipo: INSTALAÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "851"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 853 = VISTORIA DE MUDANCA DE ENDERECO: QUANDO TÉCNICO VAI A RESIDÊNCIA DO CLIENTE E IDENTIFICA QUE NO LOCAL JÁ POSSUI INSTALAÇÃO | Tipo: SERVIÇO",
+    "tags": [
+      "codigo_baixa",
+      "853"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 903 = CAUSAS NATURAIS: QUANDO O TÉCNICO NÃO CONSEGUE CHEGAR ATÉ A CASA DO CLIENTE DEVIDO A: CHUVAS E VENTIOS FORTES/ DESLIZAMENTOS/ENCHENTES/ EVENTO MASSIVOS DE ENERGIA | Tipo: INSTALAÇÃO/MANUTENÇÃO/RETIRADA/SERVIÇOS",
+    "tags": [
+      "codigo_baixa",
+      "903"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  },
+  {
+    "texto": "Código 999 = CONTINGENCIA: QUANDO HÁ PROBLEMA NO NETSMS QUE IMPOSSIBILITE QUALQUER BAIXA. TÉCNICO É INSTRUÍDO PELO COORDENADOR E BAIXA 999 PELO PDA. | Tipo: INSTALAÇÃO/MANUTENÇÃO",
+    "tags": [
+      "codigo_baixa",
+      "999"
+    ],
+    "categoria": "codigo_baixa",
+    "peso": 9,
+    "fonte": "CODIGO_DE_BAIXAS_v2"
+  }
+]

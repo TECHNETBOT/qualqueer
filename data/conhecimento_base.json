@@ -1,0 +1,314 @@
+{
+  "versao": 2,
+  "descricao": "Base de conhecimento BotTECHNET — Claro/Technet (inclui PR-OPS-080 MDU GPON)",
+  "fatos": [
+    {
+      "texto": "Código 430 significa Fora de Rota — OS fora da área do técnico",
+      "tags": ["codigo", "baixa", "430", "fora-rota"], "categoria": "codigo_baixa", "peso": 10
+    },
+    {
+      "texto": "Código 101 significa Número da residência não localizado — endereço não encontrado",
+      "tags": ["codigo", "baixa", "101", "endereco"], "categoria": "codigo_baixa", "peso": 10
+    },
+    {
+      "texto": "Código 106 significa Cliente ausente — cliente não estava em casa na visita",
+      "tags": ["codigo", "baixa", "106", "cliente-ausente"], "categoria": "codigo_baixa", "peso": 10
+    },
+    {
+      "texto": "Código 404 significa Envio de HIT — habilitação de sinal no equipamento",
+      "tags": ["codigo", "baixa", "404", "hit"], "categoria": "codigo_baixa", "peso": 10
+    },
+    {
+      "texto": "Código 312 significa Cliente não solicitou nenhum serviço — aguardando confirmação",
+      "tags": ["codigo", "baixa", "312"], "categoria": "codigo_baixa", "peso": 10
+    },
+    {
+      "texto": "Código 512 significa Controle remoto com defeito — troca necessária",
+      "tags": ["codigo", "baixa", "512", "controle"], "categoria": "codigo_baixa", "peso": 10
+    },
+    {
+      "texto": "Código 100 significa Cancelamento da OS",
+      "tags": ["codigo", "baixa", "100", "cancelamento"], "categoria": "codigo_baixa", "peso": 10
+    },
+    {
+      "texto": "Código 105 significa Sem energia no local — cliente sem luz",
+      "tags": ["codigo", "baixa", "105", "energia"], "categoria": "codigo_baixa", "peso": 10
+    },
+    {
+      "texto": "Código 107 significa Entrada não autorizada na portaria",
+      "tags": ["codigo", "baixa", "107", "portaria"], "categoria": "codigo_baixa", "peso": 10
+    },
+    {
+      "texto": "Código 125 significa Reagendamento pelo cliente — cliente pediu novo horário",
+      "tags": ["codigo", "baixa", "125", "reagendamento"], "categoria": "codigo_baixa", "peso": 10
+    },
+    {
+      "texto": "Código 302 significa Desistência do cliente ou assinatura ou serviço",
+      "tags": ["codigo", "baixa", "302", "desistencia"], "categoria": "codigo_baixa", "peso": 10
+    },
+    {
+      "texto": "Código 306 significa Cliente não reside no endereço",
+      "tags": ["codigo", "baixa", "306", "endereco"], "categoria": "codigo_baixa", "peso": 10
+    },
+    {
+      "texto": "Código 409 significa Instalação concluída com sucesso",
+      "tags": ["codigo", "baixa", "409", "instalacao"], "categoria": "codigo_baixa", "peso": 10
+    },
+    {
+      "texto": "Código 440 significa Equipamento roubado, furtado ou extraviado",
+      "tags": ["codigo", "baixa", "440", "roubo", "furto"], "categoria": "codigo_baixa", "peso": 10
+    },
+    {
+      "texto": "Código 441 significa Rede de dados WiFi ou mista executada com sucesso",
+      "tags": ["codigo", "baixa", "441", "wifi", "rede"], "categoria": "codigo_baixa", "peso": 10
+    },
+    {
+      "texto": "Código 450 significa Boot no terminal — reinicialização do decoder",
+      "tags": ["codigo", "baixa", "450", "boot", "decoder"], "categoria": "codigo_baixa", "peso": 10
+    },
+    {
+      "texto": "Código 516 significa Terminal travado — T.T travado",
+      "tags": ["codigo", "baixa", "516", "travado", "terminal"], "categoria": "codigo_baixa", "peso": 10
+    },
+    {
+      "texto": "Código 517 significa Terminal queimado — T.T queimado",
+      "tags": ["codigo", "baixa", "517", "queimado", "terminal"], "categoria": "codigo_baixa", "peso": 10
+    },
+    {
+      "texto": "Código 523 significa T.T com problema de alcance WiFi",
+      "tags": ["codigo", "baixa", "523", "wifi", "alcance"], "categoria": "codigo_baixa", "peso": 10
+    },
+    {
+      "texto": "Código 537 significa Reconfiguração do EMTA ou roteador Net-WiFi",
+      "tags": ["codigo", "baixa", "537", "emta", "roteador"], "categoria": "codigo_baixa", "peso": 10
+    },
+    {
+      "texto": "Código 558 significa Boot no terminal decoder",
+      "tags": ["codigo", "baixa", "558", "boot"], "categoria": "codigo_baixa", "peso": 10
+    },
+    {
+      "texto": "Código 566 significa Drop refeito",
+      "tags": ["codigo", "baixa", "566", "drop"], "categoria": "codigo_baixa", "peso": 10
+    },
+    {
+      "texto": "Código 601 significa Cancelado por ativo — instruções dadas ao cliente por telefone",
+      "tags": ["codigo", "baixa", "601", "ativo"], "categoria": "codigo_baixa", "peso": 10
+    },
+    {
+      "texto": "Código 602 significa Cancelado por ativo — envio de HIT resolveu",
+      "tags": ["codigo", "baixa", "602", "ativo", "hit"], "categoria": "codigo_baixa", "peso": 10
+    },
+    {
+      "texto": "Código 605 significa Cancelado por ativo — cliente não estará disponível",
+      "tags": ["codigo", "baixa", "605", "ativo"], "categoria": "codigo_baixa", "peso": 10
+    },
+    {
+      "texto": "Código 211 significa Falta de NAP ou NAP lotada — sem porta disponível na caixa",
+      "tags": ["codigo", "baixa", "211", "nap"], "categoria": "codigo_baixa", "peso": 10
+    },
+    {
+      "texto": "Código 202 significa Node em outage — problema na rede do bairro inteiro",
+      "tags": ["codigo", "baixa", "202", "node", "outage"], "categoria": "codigo_baixa", "peso": 10
+    },
+    {
+      "texto": "Código 203 significa Rede externa com problema — problema de infraestrutura",
+      "tags": ["codigo", "baixa", "203", "rede-externa"], "categoria": "codigo_baixa", "peso": 10
+    },
+    {
+      "texto": "Código 311 significa Defeito intermitente não resolvido — problema que some e volta",
+      "tags": ["codigo", "baixa", "311", "intermitente"], "categoria": "codigo_baixa", "peso": 10
+    },
+    {
+      "texto": "Código 403 significa Cliente recusa devolver o decoder ou modem",
+      "tags": ["codigo", "baixa", "403", "devolucao"], "categoria": "codigo_baixa", "peso": 10
+    },
+    {
+      "texto": "Código 417 significa Drop refeito — cabo externo trocado",
+      "tags": ["codigo", "baixa", "417", "drop"], "categoria": "codigo_baixa", "peso": 10
+    },
+    {
+      "texto": "Código 421 significa Troca de amplificador",
+      "tags": ["codigo", "baixa", "421", "amplificador"], "categoria": "codigo_baixa", "peso": 10
+    },
+    {
+      "texto": "Código 443 significa Roteador com problema",
+      "tags": ["codigo", "baixa", "443", "roteador"], "categoria": "codigo_baixa", "peso": 10
+    },
+    {
+      "texto": "Código 444 significa Reconfigurado rede e/ou roteador",
+      "tags": ["codigo", "baixa", "444", "roteador"], "categoria": "codigo_baixa", "peso": 10
+    },
+    {
+      "texto": "Código 500 significa Readequação de sinal nos passivos",
+      "tags": ["codigo", "baixa", "500", "sinal", "passivo"], "categoria": "codigo_baixa", "peso": 10
+    },
+    {
+      "texto": "Código 555 significa Sem defeito no produto Virtua — internet funcionando normal",
+      "tags": ["codigo", "baixa", "555", "virtua"], "categoria": "codigo_baixa", "peso": 10
+    },
+    {
+      "texto": "Código 556 significa Sem defeito no produto TV — TV funcionando normal",
+      "tags": ["codigo", "baixa", "556", "tv"], "categoria": "codigo_baixa", "peso": 10
+    },
+    {
+      "texto": "DECODER: serial composto somente por números, ex: 241700356163",
+      "tags": ["equipamento", "decoder", "serial"], "categoria": "equipamento", "peso": 9
+    },
+    {
+      "texto": "EMTA: serial alfanumérico, ex: DC5193D8C282 — modem de telefonia",
+      "tags": ["equipamento", "emta", "serial", "modem"], "categoria": "equipamento", "peso": 9
+    },
+    {
+      "texto": "MASH ou Terminal Extensor: repetidor WiFi da Claro — sempre sugerir quando cliente reclamar de sinal fraco ou internet lenta em partes da casa",
+      "tags": ["equipamento", "mash", "extensor", "wifi"], "categoria": "equipamento", "peso": 9
+    },
+    {
+      "texto": "SMART ou ONT: serial alfanumérico com padrões HGU ou ONT — roteador fibra",
+      "tags": ["equipamento", "smart", "ont", "hgu", "fibra"], "categoria": "equipamento", "peso": 9
+    },
+    {
+      "texto": "Rota deve ser ativada até 08h — sistema desativa automaticamente às 08h05 quem não ativou",
+      "tags": ["rota", "horario", "ativacao"], "categoria": "processo", "peso": 9
+    },
+    {
+      "texto": "Fora de Rota (430): técnico atende OS fora da sua área designada — precisa autorização do controlador",
+      "tags": ["fora-rota", "430", "autorizacao"], "categoria": "processo", "peso": 9
+    },
+    {
+      "texto": "VT significa Visita Técnica — OS de manutenção ou reparo no cliente",
+      "tags": ["vt", "visita-tecnica"], "categoria": "processo", "peso": 8
+    },
+    {
+      "texto": "AD significa Adesão — OS de instalação de novo serviço para cliente",
+      "tags": ["ad", "adesao", "instalacao"], "categoria": "processo", "peso": 8
+    },
+    {
+      "texto": "TOA é o sistema Oracle Field Service usado pela Claro para gestão de OS e rotas dos técnicos",
+      "tags": ["toa", "sistema", "oracle"], "categoria": "sistema", "peso": 9
+    },
+    {
+      "texto": "Improdutiva: OS não concluída com atendimento — cliente ausente, endereço não localizado, recusa etc.",
+      "tags": ["improdutiva", "os"], "categoria": "processo", "peso": 8
+    },
+    {
+      "texto": "Drop: cabo coaxial ou óptico que liga a caixa externa até a casa do cliente",
+      "tags": ["drop", "cabo", "coaxial", "instalacao"], "categoria": "tecnico", "peso": 7
+    },
+    {
+      "texto": "NAP: ponto de acesso à rede — caixa de distribuição onde o drop é conectado",
+      "tags": ["nap", "rede", "distribuicao"], "categoria": "tecnico", "peso": 7
+    },
+    {
+      "texto": "HIT: sinal de habilitação enviado remotamente para o decoder ou modem pelo sistema",
+      "tags": ["hit", "habilitacao", "sinal", "decoder"], "categoria": "tecnico", "peso": 7
+    },
+    {
+      "texto": "Boot no terminal: reinicialização forçada do decoder ou modem para resolver travamentos",
+      "tags": ["boot", "reinicializacao", "decoder"], "categoria": "tecnico", "peso": 7
+    },
+    {
+      "texto": "MDU (Multiple Dwelling Unit): prédio ou condomínio com múltiplas unidades residenciais atendidas pela Claro",
+      "tags": ["mdu", "predio", "condominio", "gpon"], "categoria": "tecnico", "peso": 9
+    },
+    {
+      "texto": "MDU GPON Brownfield: construção de rede óptica GPON em cidades que já têm rede HFC existente",
+      "tags": ["mdu", "gpon", "brownfield", "hfc", "fibra"], "categoria": "tecnico", "peso": 9
+    },
+    {
+      "texto": "GPON (Gigabit Passive Optical Network): rede óptica passiva com tráfego acima de 1 Gbps usada na fibra da Claro",
+      "tags": ["gpon", "fibra", "optica", "rede"], "categoria": "tecnico", "peso": 9
+    },
+    {
+      "texto": "DIO (Distribuidor Interno Óptico): caixa instalada no DG do prédio que faz a transição entre rede externa e interna — ponto de fusão do cabo DROP",
+      "tags": ["dio", "distribuidor", "optico", "mdu", "predio"], "categoria": "tecnico", "peso": 9
+    },
+    {
+      "texto": "NAP MDU: caixa splitter 1:8 instalada nos andares do prédio para distribuir sinal óptico para até 8 apartamentos",
+      "tags": ["nap", "mdu", "splitter", "andar", "apartamento"], "categoria": "tecnico", "peso": 9
+    },
+    {
+      "texto": "Cabo DROP MDU GPON Brownfield: cabo FIG.8 com 4 ou 8 fibras e mensageiro — 4FO para prédios até 40HP ou acima de 64HP, 8FO para 41 a 64HP",
+      "tags": ["drop", "cabo", "fig8", "mdu", "gpon", "fibra"], "categoria": "tecnico", "peso": 9
+    },
+    {
+      "texto": "Cabo LOW FRICTION cinza (backbone MDU): interliga DIO com NAP MDU nos andares — cabo FIG.8 com mensageiro, 1 fibra",
+      "tags": ["low-friction", "backbone", "mdu", "cabo", "cinza"], "categoria": "tecnico", "peso": 9
+    },
+    {
+      "texto": "Cabo LOW FRICTION branco (assinante MDU): interliga NAP MDU com o PTO no apartamento do cliente — sem mensageiro, 1 fibra",
+      "tags": ["low-friction", "assinante", "mdu", "cabo", "branco", "pto"], "categoria": "tecnico", "peso": 9
+    },
+    {
+      "texto": "Conector de campo MDU GPON: FAST SC/APC — instalável em campo com clivador, usado nas extremidades dos cabos backbone",
+      "tags": ["conector", "sc-apc", "fast", "campo", "mdu"], "categoria": "tecnico", "peso": 8
+    },
+    {
+      "texto": "Comprimento máximo do cabo DROP MDU GPON: 150 metros da caixa de emenda até o último ponto de ancoragem",
+      "tags": ["drop", "comprimento", "maximo", "150m", "mdu"], "categoria": "tecnico", "peso": 9
+    },
+    {
+      "texto": "Premissa de construção MDU Brownfield: construir para 50% dos HP existentes no prédio; projeto abrange até 80% dos HP",
+      "tags": ["mdu", "brownfield", "premissa", "hp", "50%"], "categoria": "processo", "peso": 9
+    },
+    {
+      "texto": "MDU até 8HP: usa DIO/NAP com splitter 1:8 instalado no DG do prédio — drop vai direto da caixa de emenda ao DIO/NAP",
+      "tags": ["mdu", "hp", "dio", "nap", "splitter"], "categoria": "tecnico", "peso": 8
+    },
+    {
+      "texto": "MDU de 9 a 40HP: usa DIO no DG + NAP MDU com splitter 1:8 nos andares estratégicos conectadas por cabo LOW FRICTION cinza",
+      "tags": ["mdu", "hp", "dio", "nap", "backbone"], "categoria": "tecnico", "peso": 8
+    },
+    {
+      "texto": "MDU acima de 56HP: usa splitter primário no DIO + splitter secundários 1:8 nos andares (NAP MDU) — uma porta de OLT atende 64HP",
+      "tags": ["mdu", "hp", "olt", "splitter-primario", "splitter-secundario"], "categoria": "tecnico", "peso": 8
+    },
+    {
+      "texto": "OLT (Optical Line Terminal): transmissor e receptor óptico instalado no site da Claro — cada porta atende até 64 clientes GPON",
+      "tags": ["olt", "gpon", "site", "porta", "64"], "categoria": "tecnico", "peso": 8
+    },
+    {
+      "texto": "Splitter primário 1:8: divide 1 fibra em 8 — instalado no DIO ou caixa concentradora para prédios grandes",
+      "tags": ["splitter", "primario", "1x8", "dio"], "categoria": "tecnico", "peso": 8
+    },
+    {
+      "texto": "Splitter secundário 1:8: divide 1 fibra em 8 — instalado nas NAP MDU nos andares do prédio para atender apartamentos",
+      "tags": ["splitter", "secundario", "1x8", "nap", "andar"], "categoria": "tecnico", "peso": 8
+    },
+    {
+      "texto": "Vistoria MDU: atividade mais importante da construção — levanta infraestrutura do prédio, define trajeto de cabos e posição das NAP MDU, e obtém autorização do síndico",
+      "tags": ["vistoria", "mdu", "sindico", "autorizacao"], "categoria": "processo", "peso": 8
+    },
+    {
+      "texto": "Fusão de fibra óptica MDU: necessária no cabo DROP em todas as fibras destinadas ao MDU na caixa de emenda e nos pigtails do DIO",
+      "tags": ["fusao", "fibra", "drop", "dio", "pigtail"], "categoria": "tecnico", "peso": 8
+    },
+    {
+      "texto": "IVM (Inventário de Vistoria Matinal): verificação feita pela equipe de CQ checando ferramentas, uniforme e veículo do técnico antes do serviço",
+      "tags": ["ivm", "cq", "vistoria", "matinal"], "categoria": "processo", "peso": 7
+    },
+    {
+      "texto": "Ferramentas obrigatórias para conectorização GPON: alicate decapador de FO, clivador com gabarito, lenço de limpeza de fibra, alicate Better, caneta óptica, Power Meter",
+      "tags": ["ferramentas", "conectorização", "clivador", "power-meter", "gpon"], "categoria": "tecnico", "peso": 7
+    },
+    {
+      "texto": "Cabo DROP deve ser identificado com plaqueta 'CABO ÓPTICO CLARO' em cada vão de poste (200 a 400mm do poste) conforme normas das distribuidoras de energia",
+      "tags": ["drop", "plaqueta", "identificacao", "poste"], "categoria": "processo", "peso": 7
+    },
+    {
+      "texto": "Cabo de assinante no apartamento (LOW FRICTION branco) deve ser identificado com anilhas numeradas com o número do apartamento",
+      "tags": ["identificacao", "anilha", "apartamento", "low-friction"], "categoria": "processo", "peso": 7
+    },
+    {
+      "texto": "Janela de atendimento matutina: 08h às 12h",
+      "tags": ["janela", "horario", "atendimento"], "categoria": "processo", "peso": 8
+    },
+    {
+      "texto": "Janela de atendimento vespertina: 12h às 15h e 14h às 17h",
+      "tags": ["janela", "horario", "atendimento"], "categoria": "processo", "peso": 8
+    },
+    {
+      "texto": "Janela de atendimento noturna: 15h às 18h e 17h às 20h",
+      "tags": ["janela", "horario", "atendimento"], "categoria": "processo", "peso": 8
+    }
+  ]
+}
