@@ -11,15 +11,19 @@ import time
 import threading
 import socket as _socket
 import subprocess
+import shutil
 
 BOT_BUILD = os.getenv("BOT_BUILD", "v30")
 
-TOA_USER      = os.getenv("TOA_USER", "z631404")
-TOA_PASS      = os.getenv("TOA_PASS", "B@QkJtat93vG")
+TOA_USER      = os.getenv("TOA_USER", "Z478362")
+TOA_PASS      = os.getenv("TOA_PASS", "Nc-09JR3")
 TOA_LOGIN_URL = os.getenv("TOA_LOGIN_URL", "https://clarobrasil.etadirect.com/toa/")
 LOGIN_TIMEOUT = int(os.getenv("TOA_LOGIN_TIMEOUT", "40"))
 MAX_RETRIES   = int(os.getenv("TOA_LOGIN_RETRIES", "3"))
 RETRY_DELAY   = int(os.getenv("TOA_RETRY_DELAY",   "8"))
+HEADLESS_MODE = os.getenv("TOA_HEADLESS", "0") == "1"
+MANUAL_LOGIN_GRACE = int(os.getenv("TOA_MANUAL_LOGIN_GRACE", "90"))
+REQUIRE_EXTENSION = os.getenv("TOA_REQUIRE_EXTENSION", "1") == "1"
 
 
 def log(msg: str):
@@ -41,8 +45,8 @@ WIN_HOST = _get_win_host()
 
 
 def _matar_chrome_e_driver():
-    """Mata chromedriver E chrome do perfil Bot para evitar conflito de sessão."""
     cmds = [
+        "taskkill /F /IM chrome.exe /T >nul 2>&1",
         "taskkill /F /IM chromedriver.exe >nul 2>&1",
     ]
     for cmd in cmds:
@@ -51,20 +55,35 @@ def _matar_chrome_e_driver():
             stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL
         )
     time.sleep(2)
-    log("chromedriver antigo encerrado")
+    log("chrome/chromedriver antigos encerrados")
 
 
-def _criar_driver():
-    try:
-        from selenium import webdriver
-        from selenium.webdriver.chrome.options import Options
-        from selenium.webdriver.chrome.service import Service
-    except ImportError:
-        log("selenium não instalado: pip install selenium --break-system-packages")
-        return None
+def _resolve_extension_path():
+    primary_win = "C:\\Users\\Technet\\Downloads\\extensao_busca_contatos"
+    primary_linux = "/mnt/c/Users/Technet/Downloads/extensao_busca_contatos"
 
-    # Sempre mata o antigo antes de criar novo
-    _matar_chrome_e_driver()
+    candidates = [
+        (primary_win, primary_linux, "downloads"),
+        ("\\\\wsl.localhost\\Ubuntu\\home\\technet\\qualquer\\extensao_busca_contatos", "/home/technet/qualquer/extensao_busca_contatos", "wsl-unc"),
+    ]
+
+    for ext_win, ext_linux, source in candidates:
+        manifest = os.path.join(ext_linux, "manifest.json")
+        if os.path.isdir(ext_linux) and os.path.exists(manifest):
+            if source != "downloads":
+                try:
+                    if os.path.isdir(primary_linux):
+                        shutil.rmtree(primary_linux, ignore_errors=True)
+                    shutil.copytree(ext_linux, primary_linux)
+                    return primary_win, primary_linux, f"{source}->downloads"
+                except Exception as e:
+                    log(f"Falha ao copiar extensão: {e}")
+            return ext_win, ext_linux, source
+    return None, None, None
+
+
+def _build_options(use_profile: bool = True, use_extension: bool = True):
+    from selenium.webdriver.chrome.options import Options
 
     options = Options()
     options.add_argument("--start-maximized")
@@ -76,85 +95,34 @@ def _criar_driver():
     options.add_argument("--no-first-run")
     options.add_argument("--no-default-browser-check")
     options.add_argument("--disable-gpu")
-    options.add_argument("--disable-software-rasterizer")
-    options.add_argument("--disable-gpu-sandbox")
-    options.add_argument("--headless=new")
-    options.add_argument("--headless=new")
+    options.add_argument("--remote-allow-origins=*")
     options.add_argument("--disable-blink-features=AutomationControlled")
+    if HEADLESS_MODE:
+        options.add_argument("--headless=new")
 
-    # Caminho do Chrome no Windows
-    chrome_bin = "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
-    options.binary_location = chrome_bin
+    options.binary_location = "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
 
-    # Perfil dedicado ao bot
     bot_profile_win   = "C:\\Users\\Technet\\AppData\\Local\\Google\\Chrome\\Bot"
     bot_profile_linux = "/mnt/c/Users/Technet/AppData/Local/Google/Chrome/Bot"
     os.makedirs(bot_profile_linux, exist_ok=True)
-    #options.add_argument(f"--user-data-dir={bot_profile_win}")
-    log(f"Perfil: {bot_profile_win}")
+    if use_profile:
+        options.add_argument(f"--user-data-dir={bot_profile_win}")
+        log(f"Perfil: {bot_profile_win}")
 
-    # Extensão opcional
-    ext_win   = "C:\\Users\\Technet\\Downloads\\extensao_busca_contatos"
-    ext_linux = "/mnt/c/Users/Technet/Downloads/extensao_busca_contatos"
-    if os.path.isdir(ext_linux):
-        #options.add_argument(f"--load-extension={ext_win}")
-        log(f"Extensão: {ext_win}")
-    else:
-        log(f"Extensão não encontrada (opcional): {ext_linux}")
+    ext_win, ext_linux, ext_source = _resolve_extension_path()
+    if use_extension and ext_win:
+        options.add_argument(f"--disable-extensions-except={ext_win}")
+        options.add_argument(f"--load-extension={ext_win}")
+        log(f"Extensão: {ext_win} (origem: {ext_source})")
+    elif use_extension:
+        log("Extensão não encontrada")
 
     options.add_experimental_option("excludeSwitches", ["enable-automation"])
     options.add_experimental_option("useAutomationExtension", False)
-
-    # Tenta chromedriver local primeiro, depois deixa selenium-manager resolver
-    cd_paths_win   = [
-        "C:\\Users\\Technet\\chromedriver.exe",
-        "C:\\Users\\Technet\\chromedriver-win64\\chromedriver.exe",
-        "C:\\chromedriver.exe",
-    ]
-    cd_paths_linux = [p.replace('C:\\', '/mnt/c/').replace('\\', '/') for p in cd_paths_win]
-
-    cd_executavel = None
-    for win_path, linux_path in zip(cd_paths_win, cd_paths_linux):
-        if os.path.exists(linux_path):
-            cd_executavel = win_path
-            log(f"Chromedriver local encontrado: {linux_path}")
-            break
-
-    try:
-        if cd_executavel:
-            # Usa o chromedriver local via caminho Windows — precisa rodar no Windows
-            # Converte para caminho que o Windows entende via powershell
-            service = Service(executable_path=cd_executavel)
-            # Para WSL conectando no Windows, usa Remote mesmo com chromedriver local
-            # Inicia chromedriver manualmente e conecta via Remote
-            _iniciar_chromedriver_local(cd_executavel)
-            time.sleep(2)
-            driver = webdriver.Remote(
-                command_executor=f"http://{WIN_HOST}:19515",
-                options=options
-            )
-        else:
-            # Selenium-manager: baixa automaticamente o chromedriver correto
-            # Mas como estamos no WSL apontando pro Chrome do Windows,
-            # precisamos do chromedriver no Windows — usa Remote com selenium-manager
-            log("Chromedriver local não encontrado — tentando via selenium-manager no Windows")
-            driver = _criar_driver_via_powershell(options)
-            if not driver:
-                return None
-
-        driver.execute_cdp_cmd("Page.addScriptToEvaluateOnNewDocument", {
-            "source": "Object.defineProperty(navigator, 'webdriver', {get: () => undefined})"
-        })
-        log("Driver Chrome criado com sucesso")
-        return driver
-
-    except Exception as e:
-        log(f"Erro ao criar driver: {e}")
-        return None
+    return options
 
 
 def _iniciar_chromedriver_local(cd_path_win: str) -> bool:
-    """Inicia o chromedriver.exe no Windows via powershell."""
     subprocess.Popen(
         ["powershell.exe", "-Command",
          f"Start-Process -FilePath '{cd_path_win}' "
@@ -173,51 +141,79 @@ def _iniciar_chromedriver_local(cd_path_win: str) -> bool:
     return False
 
 
-def _criar_driver_via_powershell(options):
-    """
-    Fallback: baixa chromedriver compatível via winget/curl no Windows e inicia.
-    Para Chrome 134+, usa o endpoint oficial do Chrome for Testing.
-    """
-    from selenium import webdriver
+def _criar_driver():
+    try:
+        from selenium import webdriver
+    except ImportError:
+        log("selenium não instalado: pip install selenium --break-system-packages")
+        return None
 
-    log("Baixando chromedriver compatível via Chrome for Testing...")
-    script = r"""
-$version = (Get-Item 'C:\Program Files\Google\Chrome\Application\chrome.exe').VersionInfo.FileVersion
-$major = $version.Split('.')[0]
-$url = "https://storage.googleapis.com/chrome-for-testing-public/$version/win64/chromedriver-win64.zip"
-$dest = "C:\Users\Technet\chromedriver_dl.zip"
-$outDir = "C:\Users\Technet\chromedriver-win64"
-try {
-    Invoke-WebRequest -Uri $url -OutFile $dest -UseBasicParsing
-    Expand-Archive -Path $dest -DestinationPath $outDir -Force
-    Write-Host "OK:$outDir\chromedriver-win64\chromedriver.exe"
-} catch {
-    Write-Host "ERRO:$_"
-}
-"""
-    result = subprocess.run(
-        ["powershell.exe", "-Command", script],
-        capture_output=True, text=True, timeout=60
-    )
-    output = result.stdout.strip()
-    log(f"Download resultado: {output}")
+    _matar_chrome_e_driver()
 
-    if output.startswith("OK:"):
-        cd_win = output[3:].strip()
-        cd_linux = cd_win.replace('C:\\', '/mnt/c/').replace('\\', '/')
-        if os.path.exists(cd_linux):
-            if _iniciar_chromedriver_local(cd_win):
+    cd_paths_win = [
+        "C:\\Users\\Technet\\chromedriver.exe",
+        "C:\\Users\\Technet\\chromedriver-win64\\chromedriver.exe",
+        "C:\\chromedriver.exe",
+    ]
+    cd_paths_linux = [p.replace('C:\\', '/mnt/c/').replace('\\', '/') for p in cd_paths_win]
+
+    cd_executavel = None
+    for win_path, linux_path in zip(cd_paths_win, cd_paths_linux):
+        if os.path.exists(linux_path):
+            cd_executavel = win_path
+            log(f"Chromedriver local: {linux_path}")
+            break
+
+    try:
+        tentativas = [
+            (True, True, "normal"),
+            (False, True, "sem-perfil-com-ext"),
+            (False, False, "sem-perfil-sem-ext"),
+        ]
+        if REQUIRE_EXTENSION:
+            tentativas = [t for t in tentativas if t[1] is True]
+
+        for use_profile, use_extension, nome in tentativas:
+            log(f"Criando sessão Chrome ({nome})...")
+            options = _build_options(use_profile=use_profile, use_extension=use_extension)
+            driver = None
+
+            if cd_executavel:
+                if _iniciar_chromedriver_local(cd_executavel):
+                    try:
+                        driver = webdriver.Remote(
+                            command_executor=f"http://{WIN_HOST}:19515",
+                            options=options
+                        )
+                    except Exception as e:
+                        log(f"Erro Remote: {e}")
+                        driver = None
+            else:
+                log("Sem chromedriver local — tentando selenium-manager")
                 try:
-                    driver = webdriver.Remote(
-                        command_executor=f"http://{WIN_HOST}:19515",
-                        options=options
-                    )
-                    return driver
+                    from selenium.webdriver.chrome.service import Service
+                    driver = webdriver.Chrome(service=Service(), options=options)
                 except Exception as e:
-                    log(f"Erro Remote após download: {e}")
+                    log(f"Erro selenium-manager: {e}")
+                    driver = None
 
-    log("Não foi possível baixar chromedriver automaticamente")
-    return None
+            if not driver:
+                continue
+
+            try:
+                driver.execute_cdp_cmd("Page.addScriptToEvaluateOnNewDocument", {
+                    "source": "Object.defineProperty(navigator, 'webdriver', {get: () => undefined})"
+                })
+            except Exception:
+                pass
+            log("Driver Chrome criado com sucesso")
+            return driver
+
+        log("Falha em todos os modos")
+        return None
+    except Exception as e:
+        log(f"Erro ao criar driver: {e}")
+        return None
 
 
 def _esperar_elemento(driver, by, selector, timeout=10):
@@ -227,6 +223,44 @@ def _esperar_elemento(driver, by, selector, timeout=10):
         return WebDriverWait(driver, timeout).until(EC.element_to_be_clickable((by, selector)))
     except Exception:
         return None
+
+
+def _find_visible_input(driver, selectors, timeout=12):
+    from selenium.webdriver.common.by import By
+    deadline = time.time() + timeout
+    while time.time() < deadline:
+        for selector in selectors:
+            try:
+                el = driver.find_element(By.XPATH, selector)
+                if el and el.is_displayed():
+                    return ("default", el)
+            except Exception:
+                pass
+        time.sleep(0.4)
+    return (None, None)
+
+
+def _digitar_input(driver, elemento, valor: str) -> bool:
+    from selenium.webdriver.common.keys import Keys
+    if elemento is None:
+        return False
+    try:
+        elemento.click()
+        time.sleep(0.1)
+        elemento.send_keys(Keys.CONTROL, "a")
+        elemento.send_keys(Keys.BACKSPACE)
+        elemento.send_keys(valor)
+        return True
+    except Exception:
+        pass
+    try:
+        driver.execute_script(
+            "arguments[0].value = arguments[1]; arguments[0].dispatchEvent(new Event('input',{bubbles:true}));",
+            elemento, valor
+        )
+        return True
+    except Exception:
+        return False
 
 
 def _clicar_allow(driver, max_wait=8.0) -> bool:
@@ -253,12 +287,19 @@ def _clicar_allow(driver, max_wait=8.0) -> bool:
 
 
 def _toa_aberto(driver) -> bool:
+    def _url_valida(url):
+        u = (url or "").lower()
+        return "clarobrasil.etadirect.com" in u or "etadirect.com" in u
+    try:
+        if _url_valida(driver.current_url):
+            return True
+    except Exception:
+        pass
     try:
         for handle in driver.window_handles:
             try:
                 driver.switch_to.window(handle)
-                url = driver.current_url
-                if "etadirect.com" in url or "clarobrasil" in url:
+                if _url_valida(driver.current_url):
                     return True
             except Exception:
                 continue
@@ -280,70 +321,55 @@ def fazer_login(driver) -> bool:
         return False
     time.sleep(4)
 
-    # Clica Allow se aparecer
     if _clicar_allow(driver, max_wait=6):
         log("Popup Allow clicado")
         time.sleep(1)
 
-    # Fecha popup restaurar páginas
     try:
-        from selenium.webdriver.common.by import By as B
-        fechar = driver.find_element(B.XPATH,
+        fechar = driver.find_element(By.XPATH,
             '//button[contains(text(),"×") or contains(text(),"✕") or contains(@aria-label,"fechar") or contains(@aria-label,"close")]')
         fechar.click()
         time.sleep(0.5)
-        log("Popup restaurar fechado")
     except Exception:
         pass
 
     try:
-        driver.find_element("tag name", "body").send_keys(Keys.ESCAPE)
+        driver.find_element(By.TAG_NAME, "body").send_keys(Keys.ESCAPE)
         time.sleep(0.5)
     except Exception:
         pass
 
-    # Se sessão do perfil restaurou o TOA direto
     if _toa_aberto(driver):
         log("✅ Sessão restaurada pelo perfil — TOA já aberto!")
         time.sleep(3)
         _clicar_allow(driver, max_wait=15)
         return True
 
-    # Campo usuário
-    campo_usuario = (
-        _esperar_elemento(driver, By.XPATH, '//input[@name="username" or @id="username"]', timeout=10)
-        or _esperar_elemento(driver, By.XPATH, '//input[contains(@placeholder,"suário") or contains(@placeholder,"sario")]', timeout=5)
-        or _esperar_elemento(driver, By.XPATH, '//input[@type="text"][1]', timeout=5)
-    )
+    _, campo_usuario = _find_visible_input(driver, [
+        '//input[@name="username" or @id="username"]',
+        '//input[contains(@placeholder,"suário") or contains(@placeholder,"sario")]',
+        '//input[@type="email"]',
+        '(//input[@type="text"])[1]'
+    ], timeout=12)
     if not campo_usuario:
         log("❌ Campo USUÁRIO não encontrado")
-        try:
-            log(f"URL atual: {driver.current_url}")
-        except Exception:
-            pass
         return False
 
     log("Digitando usuário...")
-    campo_usuario.clear()
-    campo_usuario.click()
+    if not _digitar_input(driver, campo_usuario, TOA_USER):
+        return False
     time.sleep(0.3)
-    campo_usuario.send_keys(TOA_USER)
-    time.sleep(0.5)
 
-    # Campo senha
-    campo_senha = _esperar_elemento(driver, By.XPATH, '//input[@type="password"]', timeout=8)
+    _, campo_senha = _find_visible_input(driver, ['//input[@type="password"]'], timeout=10)
     if not campo_senha:
         log("❌ Campo SENHA não encontrado")
         return False
 
     log("Digitando senha...")
-    campo_senha.clear()
-    campo_senha.click()
+    if not _digitar_input(driver, campo_senha, TOA_PASS):
+        return False
     time.sleep(0.3)
-    campo_senha.send_keys(TOA_PASS)
-    time.sleep(0.5)
 
-    # Botão enviar
     btn = (
         _esperar_elemento(driver, By.XPATH, '//button[contains(translate(text(),"enviar","ENVIAR"),"ENVIAR")]', timeout=5)
         or _esperar_elemento(driver, By.XPATH, '//input[@type="submit"]', timeout=3)
@@ -359,7 +385,6 @@ def fazer_login(driver) -> bool:
         log("Botão não encontrado — usando Enter")
         campo_senha.send_keys(Keys.RETURN)
 
-    # Aguarda TOA carregar
     log(f"Aguardando TOA (máx {LOGIN_TIMEOUT}s)...")
     deadline = time.time() + LOGIN_TIMEOUT
     while time.time() < deadline:
@@ -369,22 +394,32 @@ def fazer_login(driver) -> bool:
             if _clicar_allow(driver, max_wait=20):
                 log("✅ Popup Permitir clicado!")
             else:
-                log("⚠️ Popup Permitir não apareceu (pode já estar permitido)")
+                log("⚠️ Popup Permitir não apareceu")
             return True
         try:
-            body = driver.find_element("tag name", "body").text
+            body = driver.find_element(By.TAG_NAME, "body").text
             if "System error" in body:
-                log("⚠️ Erro de sistema detectado")
+                log("⚠️ Erro de sistema")
                 return False
         except Exception:
             pass
         time.sleep(1.5)
 
     log(f"⚠️ TOA não carregou em {LOGIN_TIMEOUT}s")
-    try:
-        log(f"URL atual: {driver.current_url}")
-    except Exception:
-        pass
+    return False
+
+
+def aguardar_login_manual(driver, timeout=MANUAL_LOGIN_GRACE) -> bool:
+    if timeout <= 0:
+        return False
+    log(f"⏳ Aguardando login manual por até {timeout}s...")
+    deadline = time.time() + timeout
+    while time.time() < deadline:
+        if _toa_aberto(driver):
+            log("✅ Login manual detectado!")
+            return True
+        time.sleep(1.5)
+    log("⏱️ Tempo de login manual esgotado")
     return False
 
 
@@ -393,7 +428,6 @@ def login_com_retry():
         log(f"Tentativa {tentativa}/{MAX_RETRIES}...")
         driver = _criar_driver()
         if not driver:
-            log(f"Falha ao criar driver na tentativa {tentativa}")
             if tentativa < MAX_RETRIES:
                 time.sleep(RETRY_DELAY)
             continue
@@ -401,6 +435,8 @@ def login_com_retry():
             if fazer_login(driver):
                 return driver
             log(f"Login falhou na tentativa {tentativa}")
+            if aguardar_login_manual(driver):
+                return driver
             try: driver.quit()
             except Exception: pass
         except Exception as e:
@@ -408,7 +444,7 @@ def login_com_retry():
             try: driver.quit()
             except Exception: pass
         if tentativa < MAX_RETRIES:
-            log(f"Aguardando {RETRY_DELAY}s antes da próxima tentativa...")
+            log(f"Aguardando {RETRY_DELAY}s...")
             time.sleep(RETRY_DELAY)
 
     log("❌ Todas as tentativas falharam")
@@ -417,7 +453,7 @@ def login_com_retry():
 
 def monitorar(driver, intervalo=60):
     falhas = 0
-    LIMITE = 2
+    limite = 2
 
     def _loop():
         nonlocal driver, falhas
@@ -428,8 +464,8 @@ def monitorar(driver, intervalo=60):
                     falhas = 0
                     continue
                 falhas += 1
-                log(f"⚠️ TOA não detectado ({falhas}/{LIMITE})")
-                if falhas < LIMITE:
+                log(f"⚠️ TOA não detectado ({falhas}/{limite})")
+                if falhas < limite:
                     continue
                 falhas = 0
                 log("🔄 Reconectando TOA...")
